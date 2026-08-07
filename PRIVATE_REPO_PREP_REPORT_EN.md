@@ -1,10 +1,19 @@
-# Local Preparation Report for a Private GitHub Repository
+# Private GitHub Repository Publication Report
 
 [中文](PRIVATE_REPO_PREP_REPORT.md) | **English**
 
 Date: 2026-08-07  
-Status: **Local Git initialization and the pre-publication audit are complete. Remote creation and
-upload remain pending GitHub security verification.**
+Status: **Published to a private GitHub repository.**  
+Repository: <https://github.com/supergitty520/fe-e-transformer-research>
+
+## Publication result
+
+- Owner: `supergitty520`; repository: `fe-e-transformer-research`.
+- Visibility: private; default branch: `main`.
+- Commit author: XUEZHENG WANG using a GitHub noreply address.
+- 452 source files, research documents, and audited experimental artifacts are versioned in Git.
+- Code is Apache-2.0; papers, documentation, figures, and results are CC BY 4.0. See
+  [`LICENSE_SCOPE.md`](LICENSE_SCOPE.md) for path-level scope.
 
 ## Recommendation
 
@@ -45,7 +54,7 @@ replace patent or confidentiality arrangements.
 - `tmp/`, Python caches, `node_modules`, and website build output;
 - editor, operating-system, and runtime temporary files;
 - 202 smoke, pilot, calibration, superseded, protocol-invalid, or non-conclusive intermediate artifacts
-  totaling about 26.3 MiB;
+  totaling about 23.8 MiB;
 - repository-duplicate ZIP/checksum bundles and a superseded single-seed figure.
 
 Nothing was deleted. These artifacts are preserved under ignored `local_research_archive/`. The main
@@ -61,21 +70,18 @@ extrapolation and the actively stopped 128-layer 5000-step comparison.
 - The isolated system Python lacks PyTorch and Metal access; equivalent validation was completed in the
   local PyTorch Docker environment and the host environment with Metal access.
 
-## Actions not taken
+## Actions not taken in this publication
 
-- no GitHub repository;
-- no remote;
-- no commit, push, Release, or collaborator invitation;
+- no GitHub Release;
+- no collaborator invitation;
+- no change to public visibility;
 - no second legal review of the active layered licenses for a future public release.
 
 ## Decisions reserved for the author
 
-1. private-repository owner and name;
-2. whether to keep about 185 MiB of formal raw logs in Git history or use a private Release;
-3. initial collaborators and permissions;
-4. patent, submission, or NDA constraints;
-5. whether the active layered licenses need professional legal review before a public release;
-6. whether every detailed Chinese experiment report also requires a full English translation.
-
-The author has explicitly authorized a private GitHub repository. Remote creation will proceed after
-the account security verification completes.
+1. initial collaborators and permissions;
+2. patent, submission, or NDA constraints;
+3. whether the active layered licenses need professional legal review before a public release;
+4. whether every detailed Chinese experiment report also requires a full English translation;
+5. whether future large raw logs should move to private Release assets rather than further expanding
+   Git history.

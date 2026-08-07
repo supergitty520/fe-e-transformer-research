@@ -34,7 +34,7 @@ reversible interventions.
 - [License scope](LICENSE_SCOPE.md): Apache-2.0 for code; CC BY 4.0 for research prose, figures, and data.
 - [License policy](LICENSE_POLICY_EN.md): private visibility, reuse, patent, and third-party boundaries.
 - [Private release checklist](docs/en/private_github_release_checklist.md): local and future GitHub steps.
-- [Local preparation report](PRIVATE_REPO_PREP_REPORT_EN.md): audited candidate set and actions not taken.
+- [Private publication report](PRIVATE_REPO_PREP_REPORT_EN.md): audited candidate set, exclusions, and publication status.
 - [English preprint](paper/fe_e_preprint.md) and
   [Chinese research essay](output/markdown/刚度约束和信息熵对深度学习的反作用及引申.md).
 
