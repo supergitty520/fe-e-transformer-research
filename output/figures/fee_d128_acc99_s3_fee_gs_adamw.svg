@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1420" viewBox="0 0 1800 1420">
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#222}.title{font-size:27px;font-weight:700}.subtitle{font-size:16px;fill:#666}.panel{font-size:18px;font-weight:700}.label{font-size:15px}.small{font-size:13px;fill:#555}.bold{font-size:14px;font-weight:700}</style>
+<text class="title" x="70.00" y="48.00" fill="#222" text-anchor="start" dominant-baseline="middle">128-layer FE-E stress test: three completed seeds</text>
+<text class="subtitle" x="70.00" y="82.00" fill="#666" text-anchor="start" dominant-baseline="middle">Primary endpoint: token accuracy &gt;=99% at 3 consecutive checkpoints; lower updates are better</text>
+<line x1="1040.00" y1="76.00" x2="1070.00" y2="76.00" stroke="#0B6E69" stroke-width="4"/>
+<circle cx="1055.00" cy="76.00" r="4" fill="#0B6E69" stroke="#0B6E69" stroke-width="1"/>
+<text class="small" x="1080.00" y="76.00" fill="#333" text-anchor="start" dominant-baseline="middle">GS + gated FE-E</text>
+<line x1="1265.00" y1="76.00" x2="1295.00" y2="76.00" stroke="#D97706" stroke-width="4"/>
+<circle cx="1280.00" cy="76.00" r="4" fill="#D97706" stroke="#D97706" stroke-width="1"/>
+<text class="small" x="1305.00" y="76.00" fill="#333" text-anchor="start" dominant-baseline="middle">Pure GS</text>
+<line x1="1490.00" y1="76.00" x2="1520.00" y2="76.00" stroke="#2563A6" stroke-width="4"/>
+<circle cx="1505.00" cy="76.00" r="4" fill="#2563A6" stroke="#2563A6" stroke-width="1"/>
+<text class="small" x="1530.00" y="76.00" fill="#333" text-anchor="start" dominant-baseline="middle">AdamW</text>
+<text class="panel" x="70.00" y="132.00" fill="#222" text-anchor="start" dominant-baseline="middle">A  Validation accuracy trajectories</text>
+<line x1="90.00" y1="650.00" x2="607.00" y2="650.00" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="78.00" y="650.00" fill="#555" text-anchor="end" dominant-baseline="middle">0.00</text>
+<line x1="90.00" y1="532.50" x2="607.00" y2="532.50" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="78.00" y="532.50" fill="#555" text-anchor="end" dominant-baseline="middle">0.25</text>
+<line x1="90.00" y1="415.00" x2="607.00" y2="415.00" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="78.00" y="415.00" fill="#555" text-anchor="end" dominant-baseline="middle">0.50</text>
+<line x1="90.00" y1="297.50" x2="607.00" y2="297.50" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="78.00" y="297.50" fill="#555" text-anchor="end" dominant-baseline="middle">0.75</text>
+<line x1="90.00" y1="180.00" x2="607.00" y2="180.00" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="78.00" y="180.00" fill="#555" text-anchor="end" dominant-baseline="middle">1.00</text>
+<line x1="90.00" y1="180.00" x2="90.00" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="90.00" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">0</text>
+<line x1="193.40" y1="180.00" x2="193.40" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="193.40" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">1000</text>
+<line x1="296.80" y1="180.00" x2="296.80" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="296.80" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">2000</text>
+<line x1="400.20" y1="180.00" x2="400.20" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="400.20" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">3000</text>
+<line x1="503.60" y1="180.00" x2="503.60" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="503.60" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">4000</text>
+<line x1="607.00" y1="180.00" x2="607.00" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="607.00" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">5000</text>
+<line x1="90.00" y1="184.70" x2="607.00" y2="184.70" stroke="#7A7A7A" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text class="bold" x="348.50" y="157.00" fill="#222" text-anchor="middle" dominant-baseline="middle">Seed 31</text>
+<line x1="90.00" y1="180.00" x2="90.00" y2="650.00" stroke="#666" stroke-width="1.3"/>
+<line x1="90.00" y1="650.00" x2="607.00" y2="650.00" stroke="#666" stroke-width="1.3"/>
+<polyline points="102.92,634.70 115.85,625.52 128.78,624.30 141.70,616.34 154.62,612.06 167.55,608.39 180.47,606.55 193.40,603.49 206.32,608.39 219.25,605.33 232.18,607.77 245.10,609.00 258.02,601.65 270.95,605.33 283.88,607.77 296.80,605.94 309.73,605.33 322.65,608.39 335.57,599.21 348.50,595.53 361.43,596.76 374.35,593.70 387.27,600.43 400.20,602.27 413.12,575.34 426.05,278.53 438.98,180.00 451.90,180.00 464.82,180.00" fill="none" stroke="#0B6E69" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="464.82" cy="180.00" r="4.5" fill="#0B6E69" stroke="white" stroke-width="1"/>
+<polyline points="102.92,635.92 115.85,637.76 128.78,632.25 141.70,632.25 154.62,634.09 167.55,635.31 180.47,629.19 193.40,635.92 206.32,635.92 219.25,637.15 232.18,637.76 245.10,638.98 258.02,635.31 270.95,638.98 283.88,638.98 296.80,632.86 309.73,630.42 322.65,630.42 335.57,633.48 348.50,637.76 361.43,634.70 374.35,631.64 387.27,633.48 400.20,632.86 413.12,625.52 426.05,632.86 438.98,629.80 451.90,630.42 464.82,635.31 477.75,627.97 490.68,629.80 503.60,624.30 516.52,620.01 529.45,620.62 542.38,618.18 555.30,622.46 568.23,620.01 581.15,621.24 594.08,618.18 607.00,613.89" fill="none" stroke="#D97706" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="607.00" cy="613.89" r="4.5" fill="#D97706" stroke="white" stroke-width="1"/>
+<polyline points="102.92,634.09 115.85,621.85 128.78,620.62 141.70,616.34 154.62,612.67 167.55,618.79 180.47,610.22 193.40,612.06 206.32,609.61 219.25,612.06 232.18,604.71 245.10,608.39 258.02,576.56 270.95,180.00 283.88,180.00 296.80,180.00" fill="none" stroke="#2563A6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="296.80" cy="180.00" r="4.5" fill="#2563A6" stroke="white" stroke-width="1"/>
+<line x1="649.00" y1="650.00" x2="1166.00" y2="650.00" stroke="#E6E8EB" stroke-width="1"/>
+<line x1="649.00" y1="532.50" x2="1166.00" y2="532.50" stroke="#E6E8EB" stroke-width="1"/>
+<line x1="649.00" y1="415.00" x2="1166.00" y2="415.00" stroke="#E6E8EB" stroke-width="1"/>
+<line x1="649.00" y1="297.50" x2="1166.00" y2="297.50" stroke="#E6E8EB" stroke-width="1"/>
+<line x1="649.00" y1="180.00" x2="1166.00" y2="180.00" stroke="#E6E8EB" stroke-width="1"/>
+<line x1="649.00" y1="180.00" x2="649.00" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="649.00" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">0</text>
+<line x1="752.40" y1="180.00" x2="752.40" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="752.40" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">1000</text>
+<line x1="855.80" y1="180.00" x2="855.80" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="855.80" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">2000</text>
+<line x1="959.20" y1="180.00" x2="959.20" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="959.20" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">3000</text>
+<line x1="1062.60" y1="180.00" x2="1062.60" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="1062.60" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">4000</text>
+<line x1="1166.00" y1="180.00" x2="1166.00" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="1166.00" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">5000</text>
+<line x1="649.00" y1="184.70" x2="1166.00" y2="184.70" stroke="#7A7A7A" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text class="bold" x="907.50" y="157.00" fill="#222" text-anchor="middle" dominant-baseline="middle">Seed 47</text>
+<line x1="649.00" y1="180.00" x2="649.00" y2="650.00" stroke="#666" stroke-width="1.3"/>
+<line x1="649.00" y1="650.00" x2="1166.00" y2="650.00" stroke="#666" stroke-width="1.3"/>
+<polyline points="661.92,629.19 674.85,615.73 687.77,616.95 700.70,608.39 713.62,607.77 726.55,607.77 739.48,605.94 752.40,605.33 765.33,612.06 778.25,607.16 791.17,607.16 804.10,180.00 817.02,180.00 829.95,180.00" fill="none" stroke="#0B6E69" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="829.95" cy="180.00" r="4.5" fill="#0B6E69" stroke="white" stroke-width="1"/>
+<polyline points="661.92,629.19 674.85,615.73 687.77,616.95 700.70,608.39 713.62,607.77 726.55,607.77 739.48,605.94 752.40,605.33 765.33,612.67 778.25,602.88 791.17,604.71 804.10,180.00 817.02,180.00 829.95,180.00" fill="none" stroke="#D97706" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="829.95" cy="180.00" r="4.5" fill="#D97706" stroke="white" stroke-width="1"/>
+<polyline points="661.92,627.36 674.85,624.91 687.77,618.18 700.70,617.57 713.62,611.45 726.55,617.57 739.48,615.12 752.40,615.12 765.33,605.33 778.25,607.77 791.17,604.10 804.10,566.16 817.02,180.00 829.95,180.00 842.88,180.00" fill="none" stroke="#2563A6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="842.88" cy="180.00" r="4.5" fill="#2563A6" stroke="white" stroke-width="1"/>
+<line x1="1208.00" y1="650.00" x2="1725.00" y2="650.00" stroke="#E6E8EB" stroke-width="1"/>
+<line x1="1208.00" y1="532.50" x2="1725.00" y2="532.50" stroke="#E6E8EB" stroke-width="1"/>
+<line x1="1208.00" y1="415.00" x2="1725.00" y2="415.00" stroke="#E6E8EB" stroke-width="1"/>
+<line x1="1208.00" y1="297.50" x2="1725.00" y2="297.50" stroke="#E6E8EB" stroke-width="1"/>
+<line x1="1208.00" y1="180.00" x2="1725.00" y2="180.00" stroke="#E6E8EB" stroke-width="1"/>
+<line x1="1208.00" y1="180.00" x2="1208.00" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="1208.00" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">0</text>
+<line x1="1311.40" y1="180.00" x2="1311.40" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="1311.40" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">1000</text>
+<line x1="1414.80" y1="180.00" x2="1414.80" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="1414.80" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">2000</text>
+<line x1="1518.20" y1="180.00" x2="1518.20" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="1518.20" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">3000</text>
+<line x1="1621.60" y1="180.00" x2="1621.60" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="1621.60" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">4000</text>
+<line x1="1725.00" y1="180.00" x2="1725.00" y2="650.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="1725.00" y="672.00" fill="#555" text-anchor="middle" dominant-baseline="middle">5000</text>
+<line x1="1208.00" y1="184.70" x2="1725.00" y2="184.70" stroke="#7A7A7A" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text class="bold" x="1466.50" y="157.00" fill="#222" text-anchor="middle" dominant-baseline="middle">Seed 59</text>
+<line x1="1208.00" y1="180.00" x2="1208.00" y2="650.00" stroke="#666" stroke-width="1.3"/>
+<line x1="1208.00" y1="650.00" x2="1725.00" y2="650.00" stroke="#666" stroke-width="1.3"/>
+<polyline points="1220.92,623.68 1233.85,612.67 1246.78,613.89 1259.70,607.16 1272.62,603.49 1285.55,603.49 1298.47,602.27 1311.40,599.82 1324.33,593.70 1337.25,598.59 1350.17,590.64 1363.10,591.86 1376.03,595.53 1388.95,590.64 1401.88,593.70 1414.80,601.04 1427.72,335.44 1440.65,180.00 1453.58,180.00 1466.50,180.00" fill="none" stroke="#0B6E69" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1466.50" cy="180.00" r="4.5" fill="#0B6E69" stroke="white" stroke-width="1"/>
+<polyline points="1220.92,623.68 1233.85,612.67 1246.78,613.28 1259.70,607.16 1272.62,604.10 1285.55,603.49 1298.47,602.27 1311.40,599.82 1324.33,593.70 1337.25,598.59 1350.17,591.25 1363.10,590.64 1376.03,596.15 1388.95,590.64 1401.88,592.47 1414.80,597.37 1427.72,336.05 1440.65,180.00 1453.58,180.00 1466.50,180.00" fill="none" stroke="#D97706" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1466.50" cy="180.00" r="4.5" fill="#D97706" stroke="white" stroke-width="1"/>
+<polyline points="1220.92,624.91 1233.85,619.40 1246.78,613.28 1259.70,610.83 1272.62,611.45 1285.55,605.94 1298.47,604.71 1311.40,605.33 1324.33,596.15 1337.25,604.71 1350.17,597.98 1363.10,597.37 1376.03,601.65 1388.95,598.59 1401.88,599.82 1414.80,594.31 1427.72,180.00 1440.65,180.00 1453.58,180.00" fill="none" stroke="#2563A6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1453.58" cy="180.00" r="4.5" fill="#2563A6" stroke="white" stroke-width="1"/>
+<text class="label" x="907.50" y="708.00" fill="#333" text-anchor="middle" dominant-baseline="middle">Optimizer updates</text>
+<text class="panel" x="70.00" y="745.00" fill="#222" text-anchor="start" dominant-baseline="middle">B  Updates to confirmed endpoint</text>
+<line x1="245.00" y1="795.00" x2="245.00" y2="1175.00" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="245.00" y="1197.00" fill="#555" text-anchor="middle" dominant-baseline="middle">0</text>
+<line x1="422.00" y1="795.00" x2="422.00" y2="1175.00" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="422.00" y="1197.00" fill="#555" text-anchor="middle" dominant-baseline="middle">1000</text>
+<line x1="599.00" y1="795.00" x2="599.00" y2="1175.00" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="599.00" y="1197.00" fill="#555" text-anchor="middle" dominant-baseline="middle">2000</text>
+<line x1="776.00" y1="795.00" x2="776.00" y2="1175.00" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="776.00" y="1197.00" fill="#555" text-anchor="middle" dominant-baseline="middle">3000</text>
+<line x1="953.00" y1="795.00" x2="953.00" y2="1175.00" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="953.00" y="1197.00" fill="#555" text-anchor="middle" dominant-baseline="middle">4000</text>
+<line x1="1130.00" y1="795.00" x2="1130.00" y2="1175.00" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="1130.00" y="1197.00" fill="#555" text-anchor="middle" dominant-baseline="middle">5000</text>
+<text class="bold" x="207.00" y="868.00" fill="#333" text-anchor="end" dominant-baseline="middle">Seed 31</text>
+<circle cx="886.62" cy="843.00" r="7" fill="#0B6E69" stroke="white" stroke-width="1"/>
+<text class="small" x="898.62" y="843.00" fill="#333" text-anchor="start" dominant-baseline="middle">3625</text>
+<line x1="1123.00" y1="861.00" x2="1137.00" y2="875.00" stroke="#D97706" stroke-width="3"/>
+<line x1="1123.00" y1="875.00" x2="1137.00" y2="861.00" stroke="#D97706" stroke-width="3"/>
+<text class="small" x="1118.00" y="868.00" fill="#333" text-anchor="end" dominant-baseline="middle">&gt;5000</text>
+<circle cx="599.00" cy="893.00" r="7" fill="#2563A6" stroke="white" stroke-width="1"/>
+<text class="small" x="611.00" y="893.00" fill="#333" text-anchor="start" dominant-baseline="middle">2000</text>
+<text class="bold" x="207.00" y="980.00" fill="#333" text-anchor="end" dominant-baseline="middle">Seed 47</text>
+<circle cx="554.75" cy="955.00" r="7" fill="#0B6E69" stroke="white" stroke-width="1"/>
+<text class="small" x="566.75" y="955.00" fill="#333" text-anchor="start" dominant-baseline="middle">1750</text>
+<circle cx="554.75" cy="980.00" r="7" fill="#D97706" stroke="white" stroke-width="1"/>
+<text class="small" x="566.75" y="980.00" fill="#333" text-anchor="start" dominant-baseline="middle">1750</text>
+<circle cx="576.88" cy="1005.00" r="7" fill="#2563A6" stroke="white" stroke-width="1"/>
+<text class="small" x="588.88" y="1005.00" fill="#333" text-anchor="start" dominant-baseline="middle">1875</text>
+<text class="bold" x="207.00" y="1092.00" fill="#333" text-anchor="end" dominant-baseline="middle">Seed 59</text>
+<circle cx="687.50" cy="1067.00" r="7" fill="#0B6E69" stroke="white" stroke-width="1"/>
+<text class="small" x="699.50" y="1067.00" fill="#333" text-anchor="start" dominant-baseline="middle">2500</text>
+<circle cx="687.50" cy="1092.00" r="7" fill="#D97706" stroke="white" stroke-width="1"/>
+<text class="small" x="699.50" y="1092.00" fill="#333" text-anchor="start" dominant-baseline="middle">2500</text>
+<circle cx="665.38" cy="1117.00" r="7" fill="#2563A6" stroke="white" stroke-width="1"/>
+<text class="small" x="677.38" y="1117.00" fill="#333" text-anchor="start" dominant-baseline="middle">2375</text>
+<line x1="245.00" y1="1175.00" x2="1130.00" y2="1175.00" stroke="#666" stroke-width="1.3"/>
+<text class="label" x="687.50" y="1233.00" fill="#333" text-anchor="middle" dominant-baseline="middle">Updates (censoring horizon = 5000)</text>
+<text class="panel" x="1240.00" y="745.00" fill="#222" text-anchor="start" dominant-baseline="middle">C  Gate activity and restricted mean</text>
+<rect x="1300.00" y="835.00" width="72.00" height="165.00" fill="#0B6E69" stroke="#0B6E69" stroke-width="0"/>
+<text class="bold" x="1336.00" y="819.00" fill="#222" text-anchor="middle" dominant-baseline="middle">23</text>
+<text class="small" x="1336.00" y="1022.00" fill="#555" text-anchor="middle" dominant-baseline="middle">Seed 31</text>
+<rect x="1442.00" y="1000.00" width="72.00" height="0.00" fill="#0B6E69" stroke="#0B6E69" stroke-width="0"/>
+<text class="bold" x="1478.00" y="984.00" fill="#222" text-anchor="middle" dominant-baseline="middle">0</text>
+<text class="small" x="1478.00" y="1022.00" fill="#555" text-anchor="middle" dominant-baseline="middle">Seed 47</text>
+<rect x="1584.00" y="1000.00" width="72.00" height="0.00" fill="#0B6E69" stroke="#0B6E69" stroke-width="0"/>
+<text class="bold" x="1620.00" y="984.00" fill="#222" text-anchor="middle" dominant-baseline="middle">0</text>
+<text class="small" x="1620.00" y="1022.00" fill="#555" text-anchor="middle" dominant-baseline="middle">Seed 59</text>
+<line x1="1270.00" y1="1000.00" x2="1715.00" y2="1000.00" stroke="#666" stroke-width="1.2"/>
+<text class="bold" x="1270.00" y="1048.00" fill="#333" text-anchor="start" dominant-baseline="middle">Restricted mean updates to confirmation</text>
+<circle cx="1278.00" cy="1080.00" r="5" fill="#0B6E69" stroke="#0B6E69" stroke-width="1"/>
+<text class="small" x="1293.00" y="1080.00" fill="#333" text-anchor="start" dominant-baseline="middle">GS + gated FE-E: 2625  (3/3 completed)</text>
+<circle cx="1278.00" cy="1114.00" r="5" fill="#D97706" stroke="#D97706" stroke-width="1"/>
+<text class="small" x="1293.00" y="1114.00" fill="#333" text-anchor="start" dominant-baseline="middle">Pure GS: 3083  (2/3 completed)</text>
+<circle cx="1278.00" cy="1148.00" r="5" fill="#2563A6" stroke="#2563A6" stroke-width="1"/>
+<text class="small" x="1293.00" y="1148.00" fill="#333" text-anchor="start" dominant-baseline="middle">AdamW: 2083  (3/3 completed)</text>
+<text class="subtitle" x="70.00" y="1330.00" fill="#555" text-anchor="start" dominant-baseline="middle">Censored pure-GS seed 31 is retained at the 5000-update horizon. Wall-clock time is excluded from ranking because runs were serial and system load changed.</text>
+<text class="subtitle" x="70.00" y="1362.00" fill="#555" text-anchor="start" dominant-baseline="middle">Evidence level: engineering signal only (n=3, synthetic reverse-sequence task); AdamW remains faster on restricted mean updates.</text>
+</svg>

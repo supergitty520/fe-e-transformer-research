@@ -1,0 +1,83 @@
+{
+  "variant": "fe_e_always",
+  "seed": 47,
+  "status": "completed",
+  "error": null,
+  "completed_steps": 200,
+  "elapsed_seconds": 80.86328812502325,
+  "mean_step_seconds": 0.393591355986129,
+  "timed_training_seconds": 76.75031441729516,
+  "initial_task_loss": 3.5736265182495117,
+  "final_task_loss": 3.3865599632263184,
+  "minimum_task_loss": 3.3304622173309326,
+  "max_parameter_gradient_norm": 4.27751350402832,
+  "final_stiffness_normalized": 0.025618042796850204,
+  "final_mass_energy": 2.175352710764855e-05,
+  "final_relative_coverage": 0.5033376812934875,
+  "evaluation_loss": 3.384238767623901,
+  "evaluation_accuracy": 0.06145833563059568,
+  "regularized_steps": 200,
+  "regularized_fraction": 1.0,
+  "probe_steps": 0,
+  "probe_fraction": 0.0,
+  "peak_memory_bytes": 130639200,
+  "evaluation_history": [
+    {
+      "step": 25,
+      "elapsed_seconds": 10.105088375043124,
+      "timed_training_seconds": 7.864455001428723,
+      "evaluation_loss": 3.5332532644271852,
+      "evaluation_accuracy": 0.028125000838190316
+    },
+    {
+      "step": 50,
+      "elapsed_seconds": 20.221092749852687,
+      "timed_training_seconds": 17.713958045002073,
+      "evaluation_loss": 3.4925482273101807,
+      "evaluation_accuracy": 0.03750000074505806
+    },
+    {
+      "step": 75,
+      "elapsed_seconds": 30.311162082944065,
+      "timed_training_seconds": 27.537410167977214,
+      "evaluation_loss": 3.4303645372390745,
+      "evaluation_accuracy": 0.05312500167638064
+    },
+    {
+      "step": 100,
+      "elapsed_seconds": 40.398263541050255,
+      "timed_training_seconds": 37.355688583571464,
+      "evaluation_loss": 3.4682322263717653,
+      "evaluation_accuracy": 0.04687500186264515
+    },
+    {
+      "step": 125,
+      "elapsed_seconds": 50.4938688329421,
+      "timed_training_seconds": 47.183624748606235,
+      "evaluation_loss": 3.4323172092437746,
+      "evaluation_accuracy": 0.05729166902601719
+    },
+    {
+      "step": 150,
+      "elapsed_seconds": 60.62572408281267,
+      "timed_training_seconds": 57.04591966699809,
+      "evaluation_loss": 3.397788381576538,
+      "evaluation_accuracy": 0.053125002235174176
+    },
+    {
+      "step": 175,
+      "elapsed_seconds": 70.77555354079232,
+      "timed_training_seconds": 66.92923479154706,
+      "evaluation_loss": 3.399223804473877,
+      "evaluation_accuracy": 0.05416666846722364
+    },
+    {
+      "step": 200,
+      "elapsed_seconds": 80.86311999987811,
+      "timed_training_seconds": 76.75031441729516,
+      "evaluation_loss": 3.384238767623901,
+      "evaluation_accuracy": 0.06145833563059568
+    }
+  ],
+  "log_path": "logs/fe_e_always_seed47.jsonl"
+}

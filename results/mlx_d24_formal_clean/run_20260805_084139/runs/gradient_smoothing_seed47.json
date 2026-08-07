@@ -1,0 +1,83 @@
+{
+  "variant": "gradient_smoothing",
+  "seed": 47,
+  "status": "completed",
+  "error": null,
+  "completed_steps": 200,
+  "elapsed_seconds": 9.985889707691967,
+  "mean_step_seconds": 0.047893408936663315,
+  "timed_training_seconds": 9.339214742649347,
+  "initial_task_loss": 3.607365369796753,
+  "final_task_loss": 3.1544246673583984,
+  "minimum_task_loss": 3.1136281490325928,
+  "max_parameter_gradient_norm": 3.211498498916626,
+  "final_stiffness_normalized": 1.8725610971450806,
+  "final_mass_energy": 2.701144012462464e-06,
+  "final_relative_coverage": 0.08273383229970932,
+  "evaluation_loss": 3.2045734882354737,
+  "evaluation_accuracy": 0.09583333730697632,
+  "regularized_steps": 0,
+  "regularized_fraction": 0.0,
+  "probe_steps": 11,
+  "probe_fraction": 0.055,
+  "peak_memory_bytes": 13107596,
+  "evaluation_history": [
+    {
+      "step": 25,
+      "elapsed_seconds": 1.2656609159894288,
+      "timed_training_seconds": 0.9680559197440743,
+      "evaluation_loss": 3.4732932567596437,
+      "evaluation_accuracy": 0.04062500111758709
+    },
+    {
+      "step": 50,
+      "elapsed_seconds": 2.524693790823221,
+      "timed_training_seconds": 2.1833397522568703,
+      "evaluation_loss": 3.417743372917175,
+      "evaluation_accuracy": 0.04375000130385161
+    },
+    {
+      "step": 75,
+      "elapsed_seconds": 3.7561713750474155,
+      "timed_training_seconds": 3.349742205347866,
+      "evaluation_loss": 3.3526474237442017,
+      "evaluation_accuracy": 0.07604166865348816
+    },
+    {
+      "step": 100,
+      "elapsed_seconds": 5.000970457680523,
+      "timed_training_seconds": 4.558167244773358,
+      "evaluation_loss": 3.3253615617752077,
+      "evaluation_accuracy": 0.08437500186264515
+    },
+    {
+      "step": 125,
+      "elapsed_seconds": 6.2528486656956375,
+      "timed_training_seconds": 5.73759703617543,
+      "evaluation_loss": 3.298081970214844,
+      "evaluation_accuracy": 0.08958333507180213
+    },
+    {
+      "step": 150,
+      "elapsed_seconds": 7.495332499966025,
+      "timed_training_seconds": 6.942654244136065,
+      "evaluation_loss": 3.256385898590088,
+      "evaluation_accuracy": 0.0895833358168602
+    },
+    {
+      "step": 175,
+      "elapsed_seconds": 8.749011375010014,
+      "timed_training_seconds": 8.142612701281905,
+      "evaluation_loss": 3.2241763830184937,
+      "evaluation_accuracy": 0.0927083358168602
+    },
+    {
+      "step": 200,
+      "elapsed_seconds": 9.985806582961231,
+      "timed_training_seconds": 9.339214742649347,
+      "evaluation_loss": 3.2045734882354737,
+      "evaluation_accuracy": 0.09583333730697632
+    }
+  ],
+  "log_path": "logs/gradient_smoothing_seed47.jsonl"
+}

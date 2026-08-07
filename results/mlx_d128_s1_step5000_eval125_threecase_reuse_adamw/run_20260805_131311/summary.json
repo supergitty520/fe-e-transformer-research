@@ -1,0 +1,140 @@
+{
+  "config": {
+    "steps": 5000,
+    "layers": 128,
+    "width": 32,
+    "heads": 4,
+    "sequence_length": 12,
+    "batch_size": 8,
+    "vocab_size": 32,
+    "learning_rate": 0.002,
+    "weight_decay": 0.01,
+    "residual_scale": 1.0,
+    "lambda_stiffness": 0.1,
+    "lambda_energy": 0.02,
+    "lambda_entropy": 2.0,
+    "entropy_lower": 0.5,
+    "entropy_upper": 0.98,
+    "regularizer_warmup_steps": 10,
+    "periodic_every": 8,
+    "diagnostic_every": 20,
+    "observer_probe_every": 8,
+    "evaluation_every": 125,
+    "evaluation_batches": 8,
+    "smoothing_alpha": 0.2,
+    "observer_calibration_steps": 24,
+    "observer_on_threshold": 2.5,
+    "observer_off_threshold": 1.0,
+    "observer_consecutive": 1,
+    "intervention_steps": 4,
+    "recovery_steps": 4,
+    "observer_mass_log_tolerance": 0.5,
+    "observer_coverage_floor": 0.9,
+    "log_fsync_every": 20,
+    "timing_warmup_steps": 5,
+    "stress_step": -1,
+    "stress_duration": 8,
+    "stress_lr_multiplier": 3.0,
+    "gated_fee_gradient_ratio": 0.5
+  },
+  "methods": {
+    "gradient_smoothing": {
+      "n": 1,
+      "evaluation_loss": {
+        "mean": 0.0002588331735751126,
+        "sd": 0.0
+      },
+      "evaluation_accuracy": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "mean_step_seconds": {
+        "mean": 0.2909678807470936,
+        "sd": 0.0
+      },
+      "regularized_fraction": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "probe_fraction": {
+        "mean": 0.0502,
+        "sd": 0.0
+      },
+      "peak_memory_bytes": {
+        "mean": 54039908.0,
+        "sd": 0.0
+      },
+      "max_parameter_gradient_norm": {
+        "mean": 22.022289276123047,
+        "sd": 0.0
+      },
+      "final_stiffness_normalized": {
+        "mean": 1.9176828861236572,
+        "sd": 0.0
+      },
+      "final_mass_energy": {
+        "mean": 1.964252762179375e-12,
+        "sd": 0.0
+      },
+      "final_relative_coverage": {
+        "mean": 0.9737076163291931,
+        "sd": 0.0
+      },
+      "time_ratio": {
+        "mean": 1.0,
+        "sd": 0.0
+      }
+    },
+    "fe_e_always": {
+      "n": 1,
+      "evaluation_loss": {
+        "mean": 3.023911863565445,
+        "sd": 0.0
+      },
+      "evaluation_accuracy": {
+        "mean": 0.1406250037252903,
+        "sd": 0.0
+      },
+      "mean_step_seconds": {
+        "mean": 0.6011902694091633,
+        "sd": 0.0
+      },
+      "regularized_fraction": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "probe_fraction": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "peak_memory_bytes": {
+        "mean": 172361820.0,
+        "sd": 0.0
+      },
+      "max_parameter_gradient_norm": {
+        "mean": 338.66009521484375,
+        "sd": 0.0
+      },
+      "final_stiffness_normalized": {
+        "mean": 0.0428665429353714,
+        "sd": 0.0
+      },
+      "final_mass_energy": {
+        "mean": 2.890467476390768e-05,
+        "sd": 0.0
+      },
+      "final_relative_coverage": {
+        "mean": 0.5476433634757996,
+        "sd": 0.0
+      },
+      "time_ratio": {
+        "mean": 2.066173997849996,
+        "sd": 0.0
+      }
+    }
+  },
+  "paired_vs_baseline": {},
+  "time_reference_variant": "gradient_smoothing",
+  "successful_runs": 2,
+  "total_runs": 2
+}

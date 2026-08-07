@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#222}.title{font-size:26px;font-weight:700}.subtitle{font-size:15px;fill:#666}.panel{font-size:18px;font-weight:700}.label{font-size:14px}.small{font-size:12px;fill:#555}.bold{font-size:14px;font-weight:700}</style>
+<text class="title" x="70.00" y="45.00" fill="#222" text-anchor="start" dominant-baseline="middle">192-layer GS-SHAM versus GSF under sustained LR shock</text>
+<text class="subtitle" x="70.00" y="78.00" fill="#666" text-anchor="start" dominant-baseline="middle">seed 47; width 32; LR 0.002 -&gt; 0.003 at zero-based steps 256-287; target &gt;=99% x3</text>
+<line x1="1040.00" y1="74.00" x2="1070.00" y2="74.00" stroke="#D97706" stroke-width="4"/>
+<circle cx="1055.00" cy="74.00" r="4" fill="#D97706"/>
+<text class="small" x="1080.00" y="74.00" fill="#333" text-anchor="start" dominant-baseline="middle">GS-SHAM</text>
+<line x1="1270.00" y1="74.00" x2="1300.00" y2="74.00" stroke="#0B6E69" stroke-width="4"/>
+<circle cx="1285.00" cy="74.00" r="4" fill="#0B6E69"/>
+<text class="small" x="1310.00" y="74.00" fill="#333" text-anchor="start" dominant-baseline="middle">GSF</text>
+<text class="panel" x="90.00" y="132.00" fill="#222" text-anchor="start" dominant-baseline="middle">A  Validation token accuracy</text>
+<rect x="158.61" y="170.00" width="8.58" height="580.00" fill="#FEF3C7" opacity="0.75"/>
+<line x1="90.00" y1="750.00" x2="760.00" y2="750.00" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="78.00" y="750.00" fill="#555" text-anchor="end" dominant-baseline="middle">0.00</text>
+<line x1="90.00" y1="605.00" x2="760.00" y2="605.00" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="78.00" y="605.00" fill="#555" text-anchor="end" dominant-baseline="middle">0.25</text>
+<line x1="90.00" y1="460.00" x2="760.00" y2="460.00" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="78.00" y="460.00" fill="#555" text-anchor="end" dominant-baseline="middle">0.50</text>
+<line x1="90.00" y1="315.00" x2="760.00" y2="315.00" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="78.00" y="315.00" fill="#555" text-anchor="end" dominant-baseline="middle">0.75</text>
+<line x1="90.00" y1="170.00" x2="760.00" y2="170.00" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="78.00" y="170.00" fill="#555" text-anchor="end" dominant-baseline="middle">1.00</text>
+<line x1="90.00" y1="170.00" x2="90.00" y2="750.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="90.00" y="772.00" fill="#555" text-anchor="middle" dominant-baseline="middle">0</text>
+<line x1="224.00" y1="170.00" x2="224.00" y2="750.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="224.00" y="772.00" fill="#555" text-anchor="middle" dominant-baseline="middle">500</text>
+<line x1="358.00" y1="170.00" x2="358.00" y2="750.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="358.00" y="772.00" fill="#555" text-anchor="middle" dominant-baseline="middle">1000</text>
+<line x1="492.00" y1="170.00" x2="492.00" y2="750.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="492.00" y="772.00" fill="#555" text-anchor="middle" dominant-baseline="middle">1500</text>
+<line x1="626.00" y1="170.00" x2="626.00" y2="750.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="626.00" y="772.00" fill="#555" text-anchor="middle" dominant-baseline="middle">2000</text>
+<line x1="760.00" y1="170.00" x2="760.00" y2="750.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="760.00" y="772.00" fill="#555" text-anchor="middle" dominant-baseline="middle">2500</text>
+<line x1="90.00" y1="170.00" x2="90.00" y2="750.00" stroke="#666" stroke-width="1.2"/>
+<line x1="90.00" y1="750.00" x2="760.00" y2="750.00" stroke="#666" stroke-width="1.2"/>
+<line x1="109.83" y1="734.00" x2="109.83" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="191.30" y1="734.00" x2="191.30" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="266.34" y1="734.00" x2="266.34" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="281.35" y1="734.00" x2="281.35" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="298.50" y1="734.00" x2="298.50" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="326.38" y1="734.00" x2="326.38" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="345.67" y1="734.00" x2="345.67" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="412.14" y1="734.00" x2="412.14" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="547.21" y1="734.00" x2="547.21" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="628.68" y1="734.00" x2="628.68" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="643.69" y1="734.00" x2="643.69" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<polyline points="123.50,725.08 157.00,718.28 190.50,714.51 224.00,706.95 257.50,700.91 291.00,705.44 324.50,699.40 358.00,704.69 391.50,697.14 425.00,698.65 458.50,700.16 492.00,695.62 525.50,700.16 559.00,687.32 592.50,292.34 626.00,170.00 659.50,170.00 693.00,170.00" fill="none" stroke="#D97706" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="693.00" cy="170.00" r="4" fill="#D97706"/>
+<polyline points="123.50,726.59 157.00,717.53 190.50,716.02 224.00,702.42 257.50,706.95 291.00,703.93 324.50,693.36 358.00,705.44 391.50,695.62 425.00,693.36 458.50,694.87 492.00,691.85 525.50,689.58 559.00,696.38 592.50,692.60 626.00,700.16 659.50,691.09 693.00,170.00 726.50,170.00 760.00,170.00" fill="none" stroke="#0B6E69" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="760.00" cy="170.00" r="4" fill="#0B6E69"/>
+<text class="label" x="425.00" y="805.00" fill="#333" text-anchor="middle" dominant-baseline="middle">Optimizer updates</text>
+<text class="panel" x="875.00" y="132.00" fill="#222" text-anchor="start" dominant-baseline="middle">B  Validation loss (log scale)</text>
+<rect x="943.61" y="170.00" width="8.58" height="580.00" fill="#FEF3C7" opacity="0.75"/>
+<line x1="875.00" y1="689.86" x2="1545.00" y2="689.86" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="863.00" y="689.86" fill="#555" text-anchor="end" dominant-baseline="middle">0.01</text>
+<line x1="875.00" y1="490.07" x2="1545.00" y2="490.07" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="863.00" y="490.07" fill="#555" text-anchor="end" dominant-baseline="middle">0.1</text>
+<line x1="875.00" y1="290.28" x2="1545.00" y2="290.28" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="863.00" y="290.28" fill="#555" text-anchor="end" dominant-baseline="middle">1</text>
+<line x1="875.00" y1="170.00" x2="1545.00" y2="170.00" stroke="#E6E8EB" stroke-width="1"/>
+<text class="small" x="863.00" y="170.00" fill="#555" text-anchor="end" dominant-baseline="middle">4</text>
+<line x1="875.00" y1="170.00" x2="875.00" y2="750.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="875.00" y="772.00" fill="#555" text-anchor="middle" dominant-baseline="middle">0</text>
+<line x1="1009.00" y1="170.00" x2="1009.00" y2="750.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="1009.00" y="772.00" fill="#555" text-anchor="middle" dominant-baseline="middle">500</text>
+<line x1="1143.00" y1="170.00" x2="1143.00" y2="750.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="1143.00" y="772.00" fill="#555" text-anchor="middle" dominant-baseline="middle">1000</text>
+<line x1="1277.00" y1="170.00" x2="1277.00" y2="750.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="1277.00" y="772.00" fill="#555" text-anchor="middle" dominant-baseline="middle">1500</text>
+<line x1="1411.00" y1="170.00" x2="1411.00" y2="750.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="1411.00" y="772.00" fill="#555" text-anchor="middle" dominant-baseline="middle">2000</text>
+<line x1="1545.00" y1="170.00" x2="1545.00" y2="750.00" stroke="#F0F1F3" stroke-width="1"/>
+<text class="small" x="1545.00" y="772.00" fill="#555" text-anchor="middle" dominant-baseline="middle">2500</text>
+<line x1="875.00" y1="170.00" x2="875.00" y2="750.00" stroke="#666" stroke-width="1.2"/>
+<line x1="875.00" y1="750.00" x2="1545.00" y2="750.00" stroke="#666" stroke-width="1.2"/>
+<line x1="894.83" y1="734.00" x2="894.83" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="976.30" y1="734.00" x2="976.30" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="1051.34" y1="734.00" x2="1051.34" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="1066.35" y1="734.00" x2="1066.35" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="1083.50" y1="734.00" x2="1083.50" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="1111.38" y1="734.00" x2="1111.38" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="1130.67" y1="734.00" x2="1130.67" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="1197.14" y1="734.00" x2="1197.14" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="1332.21" y1="734.00" x2="1332.21" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="1413.68" y1="734.00" x2="1413.68" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<line x1="1428.69" y1="734.00" x2="1428.69" y2="750.00" stroke="#0B6E69" stroke-width="1.8"/>
+<polyline points="908.50,183.39 942.00,183.80 975.50,184.22 1009.00,185.55 1042.50,186.66 1076.00,187.34 1109.50,187.63 1143.00,187.68 1176.50,187.77 1210.00,187.72 1243.50,187.67 1277.00,187.81 1310.50,187.91 1344.00,190.93 1377.50,263.57 1411.00,608.69 1444.50,690.22 1478.00,736.48" fill="none" stroke="#D97706" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1478.00" cy="736.48" r="4" fill="#D97706"/>
+<polyline points="908.50,183.35 942.00,183.73 975.50,184.28 1009.00,185.61 1042.50,186.73 1076.00,186.67 1109.50,187.78 1143.00,187.78 1176.50,188.05 1210.00,188.09 1243.50,187.77 1277.00,188.11 1310.50,188.03 1344.00,187.91 1377.50,188.19 1411.00,188.45 1444.50,189.10 1478.00,423.11 1511.50,652.20 1545.00,716.78" fill="none" stroke="#0B6E69" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1545.00" cy="716.78" r="4" fill="#0B6E69"/>
+<text class="label" x="1210.00" y="805.00" fill="#333" text-anchor="middle" dominant-baseline="middle">Optimizer updates</text>
+<text class="panel" x="90.00" y="840.00" fill="#222" text-anchor="start" dominant-baseline="middle">Matched result</text>
+<text class="bold" x="90.00" y="880.00" fill="#D97706" text-anchor="start" dominant-baseline="middle">GS-SHAM: 2000 first / 2250 confirmed</text>
+<text class="bold" x="90.00" y="915.00" fill="#0B6E69" text-anchor="start" dominant-baseline="middle">GSF: 2250 first / 2500 confirmed</text>
+<text class="label" x="90.00" y="950.00" fill="#333" text-anchor="start" dominant-baseline="middle">GSF delay: 250 updates (11.1%); 11 FE-E updates (0.44%).</text>
+<text class="subtitle" x="90.00" y="985.00" fill="#555" text-anchor="start" dominant-baseline="middle">Observed time ratio 1.24x; system-load-normalized estimate 1.12x; peak memory 3.34x.</text>
+<text class="subtitle" x="90.00" y="1017.00" fill="#555" text-anchor="start" dominant-baseline="middle">Pale band: LR shock. Green rug: FE-E updates. No FE-E update occurred inside the shock window.</text>
+</svg>

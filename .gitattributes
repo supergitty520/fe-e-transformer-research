@@ -1,0 +1,26 @@
+* text=auto
+
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.sh text eol=lf
+*.ps1 text eol=crlf
+
+# Raw logs remain versioned evidence, but GitHub should not render enormous diffs.
+results/**/*.jsonl -diff linguist-generated=true
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.zip binary

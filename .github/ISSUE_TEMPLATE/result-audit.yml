@@ -1,0 +1,33 @@
+name: 结果审计 / Result audit
+description: 记录完成、失败、主动停止或协议失效的运行 / Record completed, failed, stopped, or invalid runs
+title: "[Audit] "
+labels: ["result-audit"]
+body:
+  - type: dropdown
+    attributes:
+      label: 运行状态 / Run status
+      options:
+        - 完成并纳入正式汇总 / Complete and included
+        - 完成但仅作探索证据 / Complete but exploratory only
+        - 主动停止 / Actively stopped
+        - 协议失效 / Protocol invalid
+        - 运行失败 / Failed
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 结果目录 / Result directory
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 完整性检查 / Integrity checks
+      description: 步号、开始结束记录、failure、介入表和验证间隔。Audit steps, start/end records, failures, intervention table, and validation intervals.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 主要结果与边界 / Findings and boundaries
+      description: 同时报告负结果、成本、停止原因和不可外推范围。Include negative findings, cost, stop reasons, and prohibited extrapolations.
+    validations:
+      required: true

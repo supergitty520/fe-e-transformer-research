@@ -1,0 +1,398 @@
+{
+  "analysis_scope": {
+    "completed_seeds": [
+      31,
+      47,
+      59
+    ],
+    "planned_seeds": [
+      31,
+      47,
+      59,
+      71,
+      89
+    ],
+    "stopped_early_at_user_request": true,
+    "excluded_partial_run": {
+      "seed": 71,
+      "variant": "gs_fe_e_gated",
+      "train_steps_logged": 69,
+      "run_end_present": false
+    }
+  },
+  "primary_endpoint": "token accuracy >= 0.99 for 3 consecutive 125-step validation checkpoints",
+  "censoring_horizon_updates": 5000,
+  "source_sha256_values": [
+    "d8b0f195f91df941d82167b80346a415ca37f0a7a4ba84ce30c891fce32305a4"
+  ],
+  "identical_source_hash_across_runs": true,
+  "identical_config_across_completed_seeds": true,
+  "config": {
+    "steps": 5000,
+    "layers": 128,
+    "width": 32,
+    "heads": 4,
+    "sequence_length": 12,
+    "batch_size": 8,
+    "vocab_size": 32,
+    "learning_rate": 0.002,
+    "weight_decay": 0.01,
+    "residual_scale": 1.0,
+    "lambda_stiffness": 0.1,
+    "lambda_energy": 0.02,
+    "lambda_entropy": 2.0,
+    "entropy_lower": 0.5,
+    "entropy_upper": 0.98,
+    "regularizer_warmup_steps": 10,
+    "periodic_every": 8,
+    "diagnostic_every": 20,
+    "observer_probe_every": 8,
+    "evaluation_every": 125,
+    "evaluation_batches": 8,
+    "smoothing_alpha": 0.2,
+    "observer_calibration_steps": 24,
+    "observer_on_threshold": 2.5,
+    "observer_off_threshold": 1.0,
+    "observer_persistence_window": 4,
+    "observer_persistence_required": 3,
+    "observer_metric_votes_required": 2,
+    "observer_harm_consecutive": 2,
+    "observer_sentinel_loss_tolerance": 0.01,
+    "observer_sentinel_accuracy_tolerance": 0.01,
+    "observer_phase_improvement_tolerance": 0.02,
+    "observer_baseline_window": 16,
+    "observer_adaptive_baseline": false,
+    "intervention_steps": 1,
+    "recovery_steps": 48,
+    "observer_mass_log_tolerance": 0.5,
+    "observer_coverage_floor": 0.9,
+    "log_fsync_every": 20,
+    "timing_warmup_steps": 5,
+    "stress_step": -1,
+    "stress_duration": 8,
+    "stress_lr_multiplier": 3.0,
+    "gated_fee_gradient_ratio": 0.05,
+    "gated_fee_gradient_ratio_max": 0.2,
+    "target_token_accuracy": 0.99,
+    "target_confirmations": 3,
+    "stop_on_target": true
+  },
+  "integrity": {
+    "gs_fe_e_gated_seed31": {
+      "records": 3627,
+      "train_steps": 3625,
+      "expected_steps": 3625,
+      "run_start_records": 1,
+      "run_end_records": 1,
+      "contiguous_zero_based_steps": true,
+      "all_steps_finite": true,
+      "completed_run_end": true
+    },
+    "gradient_smoothing_seed31": {
+      "records": 5002,
+      "train_steps": 5000,
+      "expected_steps": 5000,
+      "run_start_records": 1,
+      "run_end_records": 1,
+      "contiguous_zero_based_steps": true,
+      "all_steps_finite": true,
+      "completed_run_end": true
+    },
+    "baseline_seed31": {
+      "records": 2002,
+      "train_steps": 2000,
+      "expected_steps": 2000,
+      "run_start_records": 1,
+      "run_end_records": 1,
+      "contiguous_zero_based_steps": true,
+      "all_steps_finite": true,
+      "completed_run_end": true
+    },
+    "gs_fe_e_gated_seed47": {
+      "records": 1752,
+      "train_steps": 1750,
+      "expected_steps": 1750,
+      "run_start_records": 1,
+      "run_end_records": 1,
+      "contiguous_zero_based_steps": true,
+      "all_steps_finite": true,
+      "completed_run_end": true
+    },
+    "gradient_smoothing_seed47": {
+      "records": 1752,
+      "train_steps": 1750,
+      "expected_steps": 1750,
+      "run_start_records": 1,
+      "run_end_records": 1,
+      "contiguous_zero_based_steps": true,
+      "all_steps_finite": true,
+      "completed_run_end": true
+    },
+    "baseline_seed47": {
+      "records": 1877,
+      "train_steps": 1875,
+      "expected_steps": 1875,
+      "run_start_records": 1,
+      "run_end_records": 1,
+      "contiguous_zero_based_steps": true,
+      "all_steps_finite": true,
+      "completed_run_end": true
+    },
+    "gs_fe_e_gated_seed59": {
+      "records": 2502,
+      "train_steps": 2500,
+      "expected_steps": 2500,
+      "run_start_records": 1,
+      "run_end_records": 1,
+      "contiguous_zero_based_steps": true,
+      "all_steps_finite": true,
+      "completed_run_end": true
+    },
+    "gradient_smoothing_seed59": {
+      "records": 2502,
+      "train_steps": 2500,
+      "expected_steps": 2500,
+      "run_start_records": 1,
+      "run_end_records": 1,
+      "contiguous_zero_based_steps": true,
+      "all_steps_finite": true,
+      "completed_run_end": true
+    },
+    "baseline_seed59": {
+      "records": 2377,
+      "train_steps": 2375,
+      "expected_steps": 2375,
+      "run_start_records": 1,
+      "run_end_records": 1,
+      "contiguous_zero_based_steps": true,
+      "all_steps_finite": true,
+      "completed_run_end": true
+    }
+  },
+  "all_completed_logs_pass_integrity": true,
+  "methods": {
+    "gs_fe_e_gated": {
+      "label": "GS + gated FE-E",
+      "confirmed_steps_by_seed": {
+        "31": 3625,
+        "47": 1750,
+        "59": 2500
+      },
+      "first_target_steps_by_seed": {
+        "31": 3375,
+        "47": 1500,
+        "59": 2250
+      },
+      "completion_count": 3,
+      "completion_rate": 1.0,
+      "restricted_confirmed_mean": 2625.0,
+      "restricted_confirmed_sample_sd": 943.7293044088437,
+      "restricted_confirmed_median": 2500,
+      "restricted_first_mean": 2375.0,
+      "mean_step_seconds": 0.3203879948132498,
+      "peak_memory_bytes_max": 177639192
+    },
+    "gradient_smoothing": {
+      "label": "Pure GS",
+      "confirmed_steps_by_seed": {
+        "31": null,
+        "47": 1750,
+        "59": 2500
+      },
+      "first_target_steps_by_seed": {
+        "31": null,
+        "47": 1500,
+        "59": 2250
+      },
+      "completion_count": 2,
+      "completion_rate": 0.6666666666666666,
+      "restricted_confirmed_mean": 3083.3333333333335,
+      "restricted_confirmed_sample_sd": 1701.7148213885114,
+      "restricted_confirmed_median": 2500,
+      "restricted_first_mean": 2916.6666666666665,
+      "mean_step_seconds": 0.3190746180700943,
+      "peak_memory_bytes_max": 53343956
+    },
+    "baseline": {
+      "label": "AdamW",
+      "confirmed_steps_by_seed": {
+        "31": 2000,
+        "47": 1875,
+        "59": 2375
+      },
+      "first_target_steps_by_seed": {
+        "31": 1750,
+        "47": 1625,
+        "59": 2125
+      },
+      "completion_count": 3,
+      "completion_rate": 1.0,
+      "restricted_confirmed_mean": 2083.3333333333335,
+      "restricted_confirmed_sample_sd": 260.2082499332666,
+      "restricted_confirmed_median": 2000,
+      "restricted_first_mean": 1833.3333333333333,
+      "mean_step_seconds": 0.2977669796335589,
+      "peak_memory_bytes_max": 53326036
+    }
+  },
+  "pairwise": {
+    "hybrid_vs_pure_gs": {
+      "wins": 1,
+      "ties": 2,
+      "losses": 0,
+      "per_seed": {
+        "31": {
+          "left_confirmed_step": 3625,
+          "right_confirmed_step": null,
+          "restricted_difference_left_minus_right": -1375,
+          "outcome_for_left": "win"
+        },
+        "47": {
+          "left_confirmed_step": 1750,
+          "right_confirmed_step": 1750,
+          "restricted_difference_left_minus_right": 0,
+          "outcome_for_left": "tie"
+        },
+        "59": {
+          "left_confirmed_step": 2500,
+          "right_confirmed_step": 2500,
+          "restricted_difference_left_minus_right": 0,
+          "outcome_for_left": "tie"
+        }
+      }
+    },
+    "hybrid_vs_adamw": {
+      "wins": 1,
+      "ties": 0,
+      "losses": 2,
+      "per_seed": {
+        "31": {
+          "left_confirmed_step": 3625,
+          "right_confirmed_step": 2000,
+          "restricted_difference_left_minus_right": 1625,
+          "outcome_for_left": "loss"
+        },
+        "47": {
+          "left_confirmed_step": 1750,
+          "right_confirmed_step": 1875,
+          "restricted_difference_left_minus_right": -125,
+          "outcome_for_left": "win"
+        },
+        "59": {
+          "left_confirmed_step": 2500,
+          "right_confirmed_step": 2375,
+          "restricted_difference_left_minus_right": 125,
+          "outcome_for_left": "loss"
+        }
+      }
+    },
+    "pure_gs_vs_adamw": {
+      "wins": 1,
+      "ties": 0,
+      "losses": 2,
+      "per_seed": {
+        "31": {
+          "left_confirmed_step": null,
+          "right_confirmed_step": 2000,
+          "restricted_difference_left_minus_right": 3000,
+          "outcome_for_left": "loss"
+        },
+        "47": {
+          "left_confirmed_step": 1750,
+          "right_confirmed_step": 1875,
+          "restricted_difference_left_minus_right": -125,
+          "outcome_for_left": "win"
+        },
+        "59": {
+          "left_confirmed_step": 2500,
+          "right_confirmed_step": 2375,
+          "restricted_difference_left_minus_right": 125,
+          "outcome_for_left": "loss"
+        }
+      }
+    }
+  },
+  "gate_audit": {
+    "by_seed": {
+      "31": {
+        "training_steps": 3625,
+        "observer_probes": 530,
+        "intervention_count": 23,
+        "intervention_fraction": 0.006344827586206896,
+        "intervention_steps_zero_based": [
+          177,
+          313,
+          393,
+          521,
+          585,
+          737,
+          809,
+          881,
+          1081,
+          1473,
+          1529,
+          1617,
+          1705,
+          1825,
+          1985,
+          2321,
+          2521,
+          2641,
+          2777,
+          2833,
+          2921,
+          2993,
+          3057
+        ],
+        "gradient_ratio_counts": {
+          "0.05": 1,
+          "0.1": 1,
+          "0.2": 21
+        },
+        "confirmed_harm_events": 23
+      },
+      "47": {
+        "training_steps": 1750,
+        "observer_probes": 231,
+        "intervention_count": 0,
+        "intervention_fraction": 0.0,
+        "intervention_steps_zero_based": [],
+        "gradient_ratio_counts": {},
+        "confirmed_harm_events": 0
+      },
+      "59": {
+        "training_steps": 2500,
+        "observer_probes": 323,
+        "intervention_count": 0,
+        "intervention_fraction": 0.0,
+        "intervention_steps_zero_based": [],
+        "gradient_ratio_counts": {},
+        "confirmed_harm_events": 0
+      }
+    },
+    "total_interventions": 23,
+    "total_hybrid_steps": 7875,
+    "aggregate_intervention_fraction": 0.002920634920634921
+  },
+  "pre_intervention_causal_check_seed31": {
+    "first_fee_step_zero_based": 177,
+    "check_step_zero_based": 50,
+    "hybrid_task_loss": 3.4335687160491943,
+    "pure_gs_task_loss": 3.441535472869873,
+    "hybrid_parameter_gradient_norm": 168.13427734375,
+    "pure_gs_parameter_gradient_norm": 23.025802612304688
+  },
+  "interpretation": {
+    "supported": [
+      "The gated hybrid completed all three seeds while pure GS failed within 5000 updates on seed 31.",
+      "The gate remained dormant on seeds 47 and 59, where the hybrid tied pure GS exactly at the endpoint.",
+      "FE-E therefore shows a reliability-rescue signal for GS in this small synthetic stress test."
+    ],
+    "not_supported": [
+      "Statistical superiority from n=3.",
+      "Faster convergence than AdamW: AdamW had lower restricted mean steps and beat the hybrid on two of three seeds.",
+      "A clean causal attribution of seed 31 rescue to FE-E because trajectories diverged before the first FE-E update.",
+      "Wall-clock speedup under serial, load-contaminated execution."
+    ]
+  }
+}

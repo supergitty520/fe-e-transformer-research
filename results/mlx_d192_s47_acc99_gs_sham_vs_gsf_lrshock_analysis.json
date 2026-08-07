@@ -1,0 +1,183 @@
+{
+  "run": "results/mlx_d192_s47_acc99_gs_sham_vs_gsf_lrshock/run_20260805_194235",
+  "source_sha256": "844ee91cfedb5c8b4a24aa49c5593ee85d3e946a0917b0e6366b73d92689c97d",
+  "config": {
+    "steps": 5000,
+    "layers": 192,
+    "width": 32,
+    "heads": 4,
+    "sequence_length": 12,
+    "batch_size": 8,
+    "vocab_size": 32,
+    "learning_rate": 0.002,
+    "weight_decay": 0.01,
+    "residual_scale": 1.0,
+    "lambda_stiffness": 0.1,
+    "lambda_energy": 0.02,
+    "lambda_entropy": 2.0,
+    "entropy_lower": 0.5,
+    "entropy_upper": 0.98,
+    "regularizer_warmup_steps": 10,
+    "periodic_every": 8,
+    "diagnostic_every": 20,
+    "observer_probe_every": 8,
+    "evaluation_every": 125,
+    "evaluation_batches": 8,
+    "smoothing_alpha": 0.2,
+    "observer_calibration_steps": 24,
+    "observer_on_threshold": 2.5,
+    "observer_off_threshold": 1.0,
+    "observer_persistence_window": 4,
+    "observer_persistence_required": 3,
+    "observer_metric_votes_required": 2,
+    "observer_harm_consecutive": 2,
+    "observer_sentinel_loss_tolerance": 0.01,
+    "observer_sentinel_accuracy_tolerance": 0.01,
+    "observer_phase_improvement_tolerance": 0.02,
+    "observer_baseline_window": 16,
+    "observer_adaptive_baseline": false,
+    "intervention_steps": 1,
+    "recovery_steps": 48,
+    "observer_mass_log_tolerance": 0.5,
+    "observer_coverage_floor": 0.9,
+    "log_fsync_every": 20,
+    "timing_warmup_steps": 5,
+    "stress_step": 256,
+    "stress_duration": 32,
+    "stress_lr_multiplier": 1.5,
+    "gated_fee_gradient_ratio": 0.05,
+    "gated_fee_gradient_ratio_max": 0.2,
+    "target_token_accuracy": 0.99,
+    "target_confirmations": 3,
+    "stop_on_target": true
+  },
+  "primary_endpoint": "token accuracy >= 0.99 at three consecutive 125-step validation checkpoints",
+  "integrity": {
+    "gs_observer_control": {
+      "records": 2252,
+      "train_steps": 2250,
+      "run_start_records": 1,
+      "run_end_records": 1,
+      "contiguous_zero_based_steps": true,
+      "all_steps_finite": true,
+      "completed_run_end": true
+    },
+    "gs_fe_e_gated": {
+      "records": 2502,
+      "train_steps": 2500,
+      "run_start_records": 1,
+      "run_end_records": 1,
+      "contiguous_zero_based_steps": true,
+      "all_steps_finite": true,
+      "completed_run_end": true
+    }
+  },
+  "all_primary_logs_pass_integrity": true,
+  "primary_comparison": {
+    "sham_first_target_step": 2000,
+    "gsf_first_target_step": 2250,
+    "first_target_delay_steps": 250,
+    "sham_confirmed_step": 2250,
+    "gsf_confirmed_step": 2500,
+    "confirmed_delay_steps": 250,
+    "confirmed_delay_fraction": 0.1111111111111111,
+    "sham_final_validation_loss": 0.005843170220032334,
+    "gsf_final_validation_loss": 0.007331994886044413
+  },
+  "pre_intervention_match": {
+    "first_fee_step_zero_based": 73,
+    "compared_steps": 73,
+    "maximum_absolute_task_loss_difference": 1.430511474609375e-06,
+    "maximum_absolute_parameter_gradient_norm_difference": 0.0001156926155090332,
+    "same_first_intervention_schedule": true
+  },
+  "gate_audit": {
+    "fee_intervention_count": 11,
+    "fee_intervention_fraction": 0.0044,
+    "fee_intervention_steps_zero_based": [
+      73,
+      377,
+      657,
+      713,
+      777,
+      881,
+      953,
+      1201,
+      1705,
+      2009,
+      2065
+    ],
+    "fee_interventions_during_lr_shock": 0,
+    "sham_scheduled_intervention_count": 5,
+    "sham_scheduled_steps_zero_based": [
+      73,
+      313,
+      1201,
+      1329,
+      1497
+    ]
+  },
+  "shock_audit": {
+    "gs_observer_control": {
+      "active_step_count": 32,
+      "first_zero_based_step": 256,
+      "last_zero_based_step": 287,
+      "effective_learning_rates": [
+        0.003
+      ],
+      "interventions_during_shock": 0,
+      "scheduled_interventions_during_shock": 0
+    },
+    "gs_fe_e_gated": {
+      "active_step_count": 32,
+      "first_zero_based_step": 256,
+      "last_zero_based_step": 287,
+      "effective_learning_rates": [
+        0.003
+      ],
+      "interventions_during_shock": 0,
+      "scheduled_interventions_during_shock": 0
+    }
+  },
+  "efficiency_audit": {
+    "gs_observer_control": {
+      "completed_steps": 2250,
+      "timed_training_seconds": 992.7541392687708,
+      "elapsed_seconds": 999.2333345408551,
+      "peak_memory_bytes": 79129244,
+      "ordinary_count": 1906,
+      "probe_count": 339,
+      "intervention_count": 0,
+      "ordinary_step_seconds_median": 0.42245135456323624,
+      "observer_probe_step_seconds_median": 0.5427536247298121,
+      "fee_intervention_step_seconds_median": null,
+      "sum_step_seconds": 995.127505518496,
+      "sum_evaluation_seconds": 3.821718582417816
+    },
+    "gs_fe_e_gated": {
+      "completed_steps": 2500,
+      "timed_training_seconds": 1227.5261496691965,
+      "elapsed_seconds": 1234.985091375187,
+      "peak_memory_bytes": 264041004,
+      "ordinary_count": 2103,
+      "probe_count": 381,
+      "intervention_count": 11,
+      "ordinary_step_seconds_median": 0.4671036251820624,
+      "observer_probe_step_seconds_median": 0.6006064577959478,
+      "fee_intervention_step_seconds_median": 1.165811125189066,
+      "sum_step_seconds": 1230.0365329617634,
+      "sum_evaluation_seconds": 4.612208998762071
+    },
+    "observed_training_time_ratio_gsf_over_sham": 1.2364855517735245,
+    "ordinary_step_system_speed_ratio_gsf_over_sham": 1.1056980173847264,
+    "system_load_normalized_estimated_time_ratio_gsf_over_sham": 1.1182850401578415,
+    "estimated_fee_increment_seconds_per_intervention": 0.5652046673931181,
+    "peak_memory_ratio_gsf_over_sham": 3.33683213250464
+  },
+  "interpretation": {
+    "result": "GSF reached and confirmed the target 250 updates later than matched GS-SHAM.",
+    "causal_strength": "The matched runs agreed closely before the first shared intervention decision at zero-based step 73.",
+    "lr_shock": "The 1.5x 32-step shock was applied identically, but no FE-E intervention occurred inside the shock window.",
+    "evidence_level": "single-seed paired mechanistic result; not a population estimate"
+  }
+}

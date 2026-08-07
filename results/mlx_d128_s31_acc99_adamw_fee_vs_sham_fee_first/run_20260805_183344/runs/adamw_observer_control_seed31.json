@@ -1,0 +1,191 @@
+{
+  "variant": "adamw_observer_control",
+  "seed": 31,
+  "status": "completed",
+  "error": null,
+  "termination_reason": "target_confirmed",
+  "completed_steps": 2125,
+  "elapsed_seconds": 620.2476588338614,
+  "mean_step_seconds": 0.29027801767949296,
+  "timed_training_seconds": 615.3893974805251,
+  "initial_task_loss": 3.655853271484375,
+  "final_task_loss": 0.006494204513728619,
+  "minimum_task_loss": 0.006328990217298269,
+  "max_parameter_gradient_norm": 14.68945026397705,
+  "final_stiffness_normalized": 2.9404945373535156,
+  "final_mass_energy": 4.66267080501126e-10,
+  "final_relative_coverage": 0.015185016207396984,
+  "evaluation_loss": 0.006345564033836126,
+  "evaluation_accuracy": 1.0,
+  "target_token_accuracy": 0.99,
+  "target_confirmations_required": 3,
+  "first_target_step": 1875,
+  "target_streak_start_step": 1875,
+  "target_confirmed_step": 2125,
+  "target_confirmed_training_seconds": 615.3893974805251,
+  "target_confirmed_elapsed_seconds": 620.2475170842372,
+  "regularized_steps": 0,
+  "regularized_fraction": 0.0,
+  "scheduled_intervention_steps": 10,
+  "scheduled_intervention_fraction": 0.004705882352941176,
+  "probe_steps": 344,
+  "probe_fraction": 0.16188235294117648,
+  "observer_intervention_count": 10,
+  "peak_memory_bytes": 53835856,
+  "evaluation_history": [
+    {
+      "step": 125,
+      "elapsed_seconds": 36.84087312500924,
+      "timed_training_seconds": 35.048418374266475,
+      "evaluation_loss": 3.4688403606414795,
+      "evaluation_accuracy": 0.03385416720993817,
+      "target_streak": 0,
+      "target_confirmed": false
+    },
+    {
+      "step": 250,
+      "elapsed_seconds": 73.63967045908794,
+      "timed_training_seconds": 71.67275579925627,
+      "evaluation_loss": 3.399898737668991,
+      "evaluation_accuracy": 0.05989583441987634,
+      "target_streak": 0,
+      "target_confirmed": false
+    },
+    {
+      "step": 375,
+      "elapsed_seconds": 110.34273941721767,
+      "timed_training_seconds": 108.16700000735,
+      "evaluation_loss": 3.351260244846344,
+      "evaluation_accuracy": 0.06510416930541396,
+      "target_streak": 0,
+      "target_confirmed": false
+    },
+    {
+      "step": 500,
+      "elapsed_seconds": 147.64484958397225,
+      "timed_training_seconds": 145.2423543324694,
+      "evaluation_loss": 3.33122318983078,
+      "evaluation_accuracy": 0.07682291930541396,
+      "target_streak": 0,
+      "target_confirmed": false
+    },
+    {
+      "step": 625,
+      "elapsed_seconds": 184.85574120888487,
+      "timed_training_seconds": 182.25599346123636,
+      "evaluation_loss": 3.2910958528518677,
+      "evaluation_accuracy": 0.07682291744276881,
+      "target_streak": 0,
+      "target_confirmed": false
+    },
+    {
+      "step": 750,
+      "elapsed_seconds": 222.9236086672172,
+      "timed_training_seconds": 220.16509750345722,
+      "evaluation_loss": 3.28689768910408,
+      "evaluation_accuracy": 0.07161458535119891,
+      "target_streak": 0,
+      "target_confirmed": false
+    },
+    {
+      "step": 875,
+      "elapsed_seconds": 260.3874952499755,
+      "timed_training_seconds": 257.43023961549625,
+      "evaluation_loss": 3.273432046175003,
+      "evaluation_accuracy": 0.08593750186264515,
+      "target_streak": 0,
+      "target_confirmed": false
+    },
+    {
+      "step": 1000,
+      "elapsed_seconds": 297.4613028340973,
+      "timed_training_seconds": 294.33620957797393,
+      "evaluation_loss": 3.2651685774326324,
+      "evaluation_accuracy": 0.09635416977107525,
+      "target_streak": 0,
+      "target_confirmed": false
+    },
+    {
+      "step": 1125,
+      "elapsed_seconds": 335.141579749994,
+      "timed_training_seconds": 331.7951620426029,
+      "evaluation_loss": 3.2663636803627014,
+      "evaluation_accuracy": 0.08723958558402956,
+      "target_streak": 0,
+      "target_confirmed": false
+    },
+    {
+      "step": 1250,
+      "elapsed_seconds": 372.489389333874,
+      "timed_training_seconds": 368.98404150642455,
+      "evaluation_loss": 3.258509337902069,
+      "evaluation_accuracy": 0.08854166977107525,
+      "target_streak": 0,
+      "target_confirmed": false
+    },
+    {
+      "step": 1375,
+      "elapsed_seconds": 409.9362953752279,
+      "timed_training_seconds": 406.20734629547223,
+      "evaluation_loss": 3.2671658098697662,
+      "evaluation_accuracy": 0.09635417023673654,
+      "target_streak": 0,
+      "target_confirmed": false
+    },
+    {
+      "step": 1500,
+      "elapsed_seconds": 446.03407329227775,
+      "timed_training_seconds": 442.11569092189893,
+      "evaluation_loss": 3.2630089819431305,
+      "evaluation_accuracy": 0.08723958674818277,
+      "target_streak": 0,
+      "target_confirmed": false
+    },
+    {
+      "step": 1625,
+      "elapsed_seconds": 480.3880824591033,
+      "timed_training_seconds": 476.294151220005,
+      "evaluation_loss": 3.249914914369583,
+      "evaluation_accuracy": 0.0872395858168602,
+      "target_streak": 0,
+      "target_confirmed": false
+    },
+    {
+      "step": 1750,
+      "elapsed_seconds": 514.8214862919413,
+      "timed_training_seconds": 510.5314914379269,
+      "evaluation_loss": 2.8778769969940186,
+      "evaluation_accuracy": 0.18750000651925802,
+      "target_streak": 0,
+      "target_confirmed": false
+    },
+    {
+      "step": 1875,
+      "elapsed_seconds": 551.0544864172116,
+      "timed_training_seconds": 546.5564077352174,
+      "evaluation_loss": 0.044694903772324324,
+      "evaluation_accuracy": 1.0,
+      "target_streak": 1,
+      "target_confirmed": false
+    },
+    {
+      "step": 2000,
+      "elapsed_seconds": 585.502001834102,
+      "timed_training_seconds": 580.8060462386347,
+      "evaluation_loss": 0.011724561918526888,
+      "evaluation_accuracy": 1.0,
+      "target_streak": 2,
+      "target_confirmed": false
+    },
+    {
+      "step": 2125,
+      "elapsed_seconds": 620.2475183750503,
+      "timed_training_seconds": 615.3893974805251,
+      "evaluation_loss": 0.006345564033836126,
+      "evaluation_accuracy": 1.0,
+      "target_streak": 3,
+      "target_confirmed": true
+    }
+  ],
+  "log_path": "logs/adamw_observer_control_seed31.jsonl"
+}

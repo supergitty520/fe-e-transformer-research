@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fe-entropy-transformer"
+version = "0.1.0"
+description = "Finite-element-inspired depth regularization for Transformer adjoint gradients"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+dependencies = ["torch>=2.2"]
+
+[project.optional-dependencies]
+mlx = ["mlx>=0.31"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#222}.title{font-size:24px;font-weight:600}.subtitle{font-size:14px;fill:#666}.tick{font-size:14px;fill:#555}.label{font-size:17px}.legend{font-size:14px;fill:#444}.note{font-size:14px;font-weight:600}</style>
+<text class="title" x="720.0" y="34" text-anchor="middle">128-layer Transformer — 1000 updates, seed 31</text>
+<text class="subtitle" x="720.0" y="57" text-anchor="middle">8 checkpoints × 8 validation batches; lower is better</text>
+<line x1="110" x2="1345" y1="560.80" y2="560.80" stroke="#c8c8c8" stroke-opacity="0.55"/>
+<text class="tick" x="96" y="565.80" text-anchor="end">3.15</text>
+<line x1="110" x2="1345" y1="489.80" y2="489.80" stroke="#c8c8c8" stroke-opacity="0.55"/>
+<text class="tick" x="96" y="494.80" text-anchor="end">3.20</text>
+<line x1="110" x2="1345" y1="418.80" y2="418.80" stroke="#c8c8c8" stroke-opacity="0.55"/>
+<text class="tick" x="96" y="423.80" text-anchor="end">3.25</text>
+<line x1="110" x2="1345" y1="347.80" y2="347.80" stroke="#c8c8c8" stroke-opacity="0.55"/>
+<text class="tick" x="96" y="352.80" text-anchor="end">3.30</text>
+<line x1="110" x2="1345" y1="276.80" y2="276.80" stroke="#c8c8c8" stroke-opacity="0.55"/>
+<text class="tick" x="96" y="281.80" text-anchor="end">3.35</text>
+<line x1="110" x2="1345" y1="205.80" y2="205.80" stroke="#c8c8c8" stroke-opacity="0.55"/>
+<text class="tick" x="96" y="210.80" text-anchor="end">3.40</text>
+<line x1="110" x2="1345" y1="134.80" y2="134.80" stroke="#c8c8c8" stroke-opacity="0.55"/>
+<text class="tick" x="96" y="139.80" text-anchor="end">3.45</text>
+<line x1="110" x2="110" y1="78" y2="575" stroke="#555"/>
+<line x1="110" x2="1345" y1="575" y2="575" stroke="#555"/>
+<line x1="143.38" x2="143.38" y1="575" y2="581" stroke="#555"/>
+<text class="tick" x="143.38" y="602" text-anchor="middle">125</text>
+<line x1="310.27" x2="310.27" y1="575" y2="581" stroke="#555"/>
+<text class="tick" x="310.27" y="602" text-anchor="middle">250</text>
+<line x1="477.16" x2="477.16" y1="575" y2="581" stroke="#555"/>
+<text class="tick" x="477.16" y="602" text-anchor="middle">375</text>
+<line x1="644.05" x2="644.05" y1="575" y2="581" stroke="#555"/>
+<text class="tick" x="644.05" y="602" text-anchor="middle">500</text>
+<line x1="810.95" x2="810.95" y1="575" y2="581" stroke="#555"/>
+<text class="tick" x="810.95" y="602" text-anchor="middle">625</text>
+<line x1="977.84" x2="977.84" y1="575" y2="581" stroke="#555"/>
+<text class="tick" x="977.84" y="602" text-anchor="middle">750</text>
+<line x1="1144.73" x2="1144.73" y1="575" y2="581" stroke="#555"/>
+<text class="tick" x="1144.73" y="602" text-anchor="middle">875</text>
+<line x1="1311.62" x2="1311.62" y1="575" y2="581" stroke="#555"/>
+<text class="tick" x="1311.62" y="602" text-anchor="middle">1000</text>
+<path d="M 143.38 108.44 L 310.27 202.92 L 477.16 282.06 L 644.05 303.05 L 810.95 380.33 L 977.84 378.04 L 1144.73 388.43 L 1311.62 400.77" fill="none" stroke="#595959" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="143.38" cy="108.44" r="4.5" fill="#fff" stroke="#595959" stroke-width="2.5"/>
+<circle cx="310.27" cy="202.92" r="4.5" fill="#fff" stroke="#595959" stroke-width="2.5"/>
+<circle cx="477.16" cy="282.06" r="4.5" fill="#fff" stroke="#595959" stroke-width="2.5"/>
+<circle cx="644.05" cy="303.05" r="4.5" fill="#fff" stroke="#595959" stroke-width="2.5"/>
+<circle cx="810.95" cy="380.33" r="4.5" fill="#fff" stroke="#595959" stroke-width="2.5"/>
+<circle cx="977.84" cy="378.04" r="4.5" fill="#fff" stroke="#595959" stroke-width="2.5"/>
+<circle cx="1144.73" cy="388.43" r="4.5" fill="#fff" stroke="#595959" stroke-width="2.5"/>
+<circle cx="1311.62" cy="400.77" r="4.5" fill="#fff" stroke="#595959" stroke-width="2.5"/>
+<path d="M 143.38 103.44 L 310.27 104.00 L 477.16 100.80 L 644.05 137.05 L 810.95 204.54 L 977.84 248.36 L 1144.73 269.95 L 1311.62 303.38" fill="none" stroke="#0072B2" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="143.38" cy="103.44" r="4.5" fill="#fff" stroke="#0072B2" stroke-width="2.5"/>
+<circle cx="310.27" cy="104.00" r="4.5" fill="#fff" stroke="#0072B2" stroke-width="2.5"/>
+<circle cx="477.16" cy="100.80" r="4.5" fill="#fff" stroke="#0072B2" stroke-width="2.5"/>
+<circle cx="644.05" cy="137.05" r="4.5" fill="#fff" stroke="#0072B2" stroke-width="2.5"/>
+<circle cx="810.95" cy="204.54" r="4.5" fill="#fff" stroke="#0072B2" stroke-width="2.5"/>
+<circle cx="977.84" cy="248.36" r="4.5" fill="#fff" stroke="#0072B2" stroke-width="2.5"/>
+<circle cx="1144.73" cy="269.95" r="4.5" fill="#fff" stroke="#0072B2" stroke-width="2.5"/>
+<circle cx="1311.62" cy="303.38" r="4.5" fill="#fff" stroke="#0072B2" stroke-width="2.5"/>
+<path d="M 143.38 194.75 L 310.27 314.51 L 477.16 424.58 L 644.05 475.29 L 810.95 512.47 L 977.84 223.94 L 1144.73 439.04 L 1311.62 467.19" fill="none" stroke="#D55E00" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="143.38" cy="194.75" r="4.5" fill="#fff" stroke="#D55E00" stroke-width="2.5"/>
+<circle cx="310.27" cy="314.51" r="4.5" fill="#fff" stroke="#D55E00" stroke-width="2.5"/>
+<circle cx="477.16" cy="424.58" r="4.5" fill="#fff" stroke="#D55E00" stroke-width="2.5"/>
+<circle cx="644.05" cy="475.29" r="4.5" fill="#fff" stroke="#D55E00" stroke-width="2.5"/>
+<circle cx="810.95" cy="512.47" r="4.5" fill="#fff" stroke="#D55E00" stroke-width="2.5"/>
+<circle cx="977.84" cy="223.94" r="4.5" fill="#fff" stroke="#D55E00" stroke-width="2.5"/>
+<circle cx="1144.73" cy="439.04" r="4.5" fill="#fff" stroke="#D55E00" stroke-width="2.5"/>
+<circle cx="1311.62" cy="467.19" r="4.5" fill="#fff" stroke="#D55E00" stroke-width="2.5"/>
+<path d="M 143.38 111.93 L 310.27 236.20 L 477.16 310.57 L 644.05 350.01 L 810.95 365.10 L 977.84 355.01 L 1144.73 434.76 L 1311.62 433.96" fill="none" stroke="#009E73" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="143.38" cy="111.93" r="4.5" fill="#fff" stroke="#009E73" stroke-width="2.5"/>
+<circle cx="310.27" cy="236.20" r="4.5" fill="#fff" stroke="#009E73" stroke-width="2.5"/>
+<circle cx="477.16" cy="310.57" r="4.5" fill="#fff" stroke="#009E73" stroke-width="2.5"/>
+<circle cx="644.05" cy="350.01" r="4.5" fill="#fff" stroke="#009E73" stroke-width="2.5"/>
+<circle cx="810.95" cy="365.10" r="4.5" fill="#fff" stroke="#009E73" stroke-width="2.5"/>
+<circle cx="977.84" cy="355.01" r="4.5" fill="#fff" stroke="#009E73" stroke-width="2.5"/>
+<circle cx="1144.73" cy="434.76" r="4.5" fill="#fff" stroke="#009E73" stroke-width="2.5"/>
+<circle cx="1311.62" cy="433.96" r="4.5" fill="#fff" stroke="#009E73" stroke-width="2.5"/>
+<path d="M 143.38 211.88 L 310.27 370.22 L 477.16 374.96 L 644.05 416.74 L 810.95 488.41 L 977.84 478.97 L 1144.73 526.00 L 1311.62 548.73" fill="none" stroke="#CC79A7" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="143.38" cy="211.88" r="4.5" fill="#fff" stroke="#CC79A7" stroke-width="2.5"/>
+<circle cx="310.27" cy="370.22" r="4.5" fill="#fff" stroke="#CC79A7" stroke-width="2.5"/>
+<circle cx="477.16" cy="374.96" r="4.5" fill="#fff" stroke="#CC79A7" stroke-width="2.5"/>
+<circle cx="644.05" cy="416.74" r="4.5" fill="#fff" stroke="#CC79A7" stroke-width="2.5"/>
+<circle cx="810.95" cy="488.41" r="4.5" fill="#fff" stroke="#CC79A7" stroke-width="2.5"/>
+<circle cx="977.84" cy="478.97" r="4.5" fill="#fff" stroke="#CC79A7" stroke-width="2.5"/>
+<circle cx="1144.73" cy="526.00" r="4.5" fill="#fff" stroke="#CC79A7" stroke-width="2.5"/>
+<circle cx="1311.62" cy="548.73" r="4.5" fill="#fff" stroke="#CC79A7" stroke-width="2.5"/>
+<line x1="977.84" x2="919.84" y1="223.94" y2="179.94" stroke="#D55E00" stroke-width="1.5"/>
+<text class="note" x="913.84" y="172.94" fill="#D55E00" text-anchor="end">FE-E transient +0.2032</text>
+<line x1="1311.62" x2="1253.62" y1="548.73" y2="506.73" stroke="#CC79A7" stroke-width="1.5"/>
+<text class="note" x="1247.62" y="500.73" fill="#CC79A7" text-anchor="end">best final: 3.1585</text>
+<text class="label" x="727.5" y="640" text-anchor="middle">Training update</text>
+<text class="label" x="30" y="326.5" text-anchor="middle" transform="rotate(-90 30 326.5)">Validation loss</text>
+<line x1="220.00" x2="248.00" y1="700" y2="700" stroke="#595959" stroke-width="3"/>
+<circle cx="234.00" cy="700" r="4" fill="#fff" stroke="#595959" stroke-width="2.4"/>
+<text class="legend" x="257.00" y="705">AdamW</text>
+<line x1="365.00" x2="393.00" y1="700" y2="700" stroke="#0072B2" stroke-width="3"/>
+<circle cx="379.00" cy="700" r="4" fill="#fff" stroke="#0072B2" stroke-width="2.4"/>
+<text class="legend" x="402.00" y="705">Gradient Smoothing</text>
+<line x1="600.00" x2="628.00" y1="700" y2="700" stroke="#D55E00" stroke-width="3"/>
+<circle cx="614.00" cy="700" r="4" fill="#fff" stroke="#D55E00" stroke-width="2.4"/>
+<text class="legend" x="637.00" y="705">FE-E always-on</text>
+<line x1="785.00" x2="813.00" y1="700" y2="700" stroke="#009E73" stroke-width="3"/>
+<circle cx="799.00" cy="700" r="4" fill="#fff" stroke="#009E73" stroke-width="2.4"/>
+<text class="legend" x="822.00" y="705">Observer-gated FE-E</text>
+<line x1="1015.00" x2="1043.00" y1="700" y2="700" stroke="#CC79A7" stroke-width="3"/>
+<circle cx="1029.00" cy="700" r="4" fill="#fff" stroke="#CC79A7" stroke-width="2.4"/>
+<text class="legend" x="1052.00" y="705">GS + gated FE-E</text>
+</svg>

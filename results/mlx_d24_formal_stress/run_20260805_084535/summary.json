@@ -1,0 +1,378 @@
+{
+  "config": {
+    "steps": 200,
+    "layers": 24,
+    "width": 32,
+    "heads": 4,
+    "sequence_length": 12,
+    "batch_size": 8,
+    "vocab_size": 32,
+    "learning_rate": 0.002,
+    "weight_decay": 0.01,
+    "residual_scale": 1.0,
+    "lambda_stiffness": 0.1,
+    "lambda_energy": 0.02,
+    "lambda_entropy": 2.0,
+    "entropy_lower": 0.5,
+    "entropy_upper": 0.98,
+    "regularizer_warmup_steps": 10,
+    "periodic_every": 8,
+    "diagnostic_every": 20,
+    "observer_probe_every": 8,
+    "evaluation_every": 25,
+    "evaluation_batches": 10,
+    "smoothing_alpha": 0.2,
+    "observer_calibration_steps": 24,
+    "observer_on_threshold": 2.5,
+    "observer_off_threshold": 1.0,
+    "observer_consecutive": 1,
+    "intervention_steps": 4,
+    "recovery_steps": 4,
+    "observer_mass_log_tolerance": 0.5,
+    "observer_coverage_floor": 0.9,
+    "log_fsync_every": 20,
+    "timing_warmup_steps": 5,
+    "stress_step": 80,
+    "stress_duration": 8,
+    "stress_lr_multiplier": 5.0,
+    "gated_fee_gradient_ratio": 0.5
+  },
+  "methods": {
+    "baseline": {
+      "n": 3,
+      "evaluation_loss": {
+        "mean": 3.2615045229593913,
+        "sd": 0.026248585079953392
+      },
+      "evaluation_accuracy": {
+        "mean": 0.08993055820465086,
+        "sd": 0.01398835984361668
+      },
+      "mean_step_seconds": {
+        "mean": 0.04440946189256815,
+        "sd": 0.0002083418272880579
+      },
+      "regularized_fraction": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "probe_fraction": {
+        "mean": 0.055,
+        "sd": 0.0
+      },
+      "peak_memory_bytes": {
+        "mean": 13092577.333333334,
+        "sd": 4966.224051866099
+      },
+      "max_parameter_gradient_norm": {
+        "mean": 2.5101678371429443,
+        "sd": 0.6234027762384113
+      },
+      "final_stiffness_normalized": {
+        "mean": 2.1167385975519815,
+        "sd": 0.20672125293537746
+      },
+      "final_mass_energy": {
+        "mean": 1.0006746720137016e-06,
+        "sd": 7.47225876787625e-08
+      },
+      "final_relative_coverage": {
+        "mean": 0.0651566448311011,
+        "sd": 0.010858976110511339
+      },
+      "time_ratio": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "baseline_training_time_loss": {
+        "mean": 3.2615045229593913,
+        "sd": 0.026248585079953392
+      },
+      "baseline_training_time_steps": 200.0
+    },
+    "gradient_smoothing": {
+      "n": 3,
+      "evaluation_loss": {
+        "mean": 3.2491597890853883,
+        "sd": 0.01723519454983929
+      },
+      "evaluation_accuracy": {
+        "mean": 0.09201389116545518,
+        "sd": 0.013988359048374673
+      },
+      "mean_step_seconds": {
+        "mean": 0.047979700587626205,
+        "sd": 0.0002796543690609708
+      },
+      "regularized_fraction": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "probe_fraction": {
+        "mean": 0.055,
+        "sd": 0.0
+      },
+      "peak_memory_bytes": {
+        "mean": 13107340.0,
+        "sd": 0.0
+      },
+      "max_parameter_gradient_norm": {
+        "mean": 2.5101678371429443,
+        "sd": 0.6234027762384113
+      },
+      "final_stiffness_normalized": {
+        "mean": 2.0882559617360434,
+        "sd": 0.24398809300670107
+      },
+      "final_mass_energy": {
+        "mean": 1.3073694541769025e-06,
+        "sd": 3.5219913087427015e-07
+      },
+      "final_relative_coverage": {
+        "mean": 0.06642374272147815,
+        "sd": 0.017514354676675815
+      },
+      "time_ratio": {
+        "mean": 1.0804070124646425,
+        "sd": 0.0075586718582032015
+      },
+      "baseline_training_time_loss": {
+        "mean": 3.26371332804362,
+        "sd": 0.019372976977262285
+      },
+      "baseline_training_time_steps": 175.0
+    },
+    "fe_e_always": {
+      "n": 3,
+      "evaluation_loss": {
+        "mean": 3.2621320803960163,
+        "sd": 0.022421232427699972
+      },
+      "evaluation_accuracy": {
+        "mean": 0.0940972247471412,
+        "sd": 0.018672679808203394
+      },
+      "mean_step_seconds": {
+        "mean": 0.08583062472952226,
+        "sd": 9.139743189461276e-05
+      },
+      "regularized_fraction": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "probe_fraction": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "peak_memory_bytes": {
+        "mean": 34886864.0,
+        "sd": 389930.86039450637
+      },
+      "max_parameter_gradient_norm": {
+        "mean": 3.6794251600901284,
+        "sd": 0.23993693510194453
+      },
+      "final_stiffness_normalized": {
+        "mean": 0.15441003193457922,
+        "sd": 0.07323587902673516
+      },
+      "final_mass_energy": {
+        "mean": 1.4594956761963354e-05,
+        "sd": 7.136368117422501e-06
+      },
+      "final_relative_coverage": {
+        "mean": 0.6348753372828165,
+        "sd": 0.012321455197894968
+      },
+      "time_ratio": {
+        "mean": 1.9327323750229557,
+        "sd": 0.007067926838518299
+      },
+      "baseline_training_time_loss": {
+        "mean": 3.474222612380981,
+        "sd": 0.011779861954186285
+      },
+      "baseline_training_time_steps": 100.0
+    },
+    "fe_e_periodic": {
+      "n": 3,
+      "evaluation_loss": {
+        "mean": 3.3847864945729573,
+        "sd": 0.021244825785259207
+      },
+      "evaluation_accuracy": {
+        "mean": 0.0597222240952154,
+        "sd": 0.006278869102740076
+      },
+      "mean_step_seconds": {
+        "mean": 0.04847561372603234,
+        "sd": 2.9058520695355514e-05
+      },
+      "regularized_fraction": {
+        "mean": 0.125,
+        "sd": 0.0
+      },
+      "probe_fraction": {
+        "mean": 0.03,
+        "sd": 0.0
+      },
+      "peak_memory_bytes": {
+        "mean": 33968137.333333336,
+        "sd": 1054867.610122395
+      },
+      "max_parameter_gradient_norm": {
+        "mean": 6.322476387023926,
+        "sd": 2.6596137140730947
+      },
+      "final_stiffness_normalized": {
+        "mean": 1.0795405507087708,
+        "sd": 0.25297325849287317
+      },
+      "final_mass_energy": {
+        "mean": 1.9737285962643605e-06,
+        "sd": 9.460309099375086e-07
+      },
+      "final_relative_coverage": {
+        "mean": 0.28592292467753094,
+        "sd": 0.10314805459065765
+      },
+      "time_ratio": {
+        "mean": 1.0915764947993052,
+        "sd": 0.005159049545324643
+      },
+      "baseline_training_time_loss": {
+        "mean": 3.4140797694524125,
+        "sd": 0.02740523851552062
+      },
+      "baseline_training_time_steps": 175.0
+    },
+    "fe_e_gated": {
+      "n": 3,
+      "evaluation_loss": {
+        "mean": 3.2602193355560303,
+        "sd": 0.026455586412231585
+      },
+      "evaluation_accuracy": {
+        "mean": 0.0902777798163394,
+        "sd": 0.021709026593689236
+      },
+      "mean_step_seconds": {
+        "mean": 0.056376930830092764,
+        "sd": 0.007534060411112752
+      },
+      "regularized_fraction": {
+        "mean": 0.16666666666666666,
+        "sd": 0.11372481406154654
+      },
+      "probe_fraction": {
+        "mean": 0.15166666666666664,
+        "sd": 0.011547005383792526
+      },
+      "peak_memory_bytes": {
+        "mean": 35609458.666666664,
+        "sd": 692443.8797688469
+      },
+      "max_parameter_gradient_norm": {
+        "mean": 2.5101678371429443,
+        "sd": 0.6234027762384113
+      },
+      "final_stiffness_normalized": {
+        "mean": 1.8936405181884766,
+        "sd": 0.19080586013918954
+      },
+      "final_mass_energy": {
+        "mean": 9.185527574118169e-07,
+        "sd": 9.38290692622082e-08
+      },
+      "final_relative_coverage": {
+        "mean": 0.08452181269725163,
+        "sd": 0.017411037624831517
+      },
+      "time_ratio": {
+        "mean": 1.2698634701970286,
+        "sd": 0.1733419694190869
+      },
+      "baseline_training_time_loss": {
+        "mean": 3.308239165941874,
+        "sd": 0.038440536030266675
+      },
+      "baseline_training_time_steps": 150.0
+    },
+    "gs_fe_e_gated": {
+      "n": 3,
+      "evaluation_loss": {
+        "mean": 3.246756593386332,
+        "sd": 0.0175719876788264
+      },
+      "evaluation_accuracy": {
+        "mean": 0.09444444775581361,
+        "sd": 0.016710012870681804
+      },
+      "mean_step_seconds": {
+        "mean": 0.057998165163474204,
+        "sd": 0.0072557879197111125
+      },
+      "regularized_fraction": {
+        "mean": 0.14666666666666667,
+        "sd": 0.1026320287889377
+      },
+      "probe_fraction": {
+        "mean": 0.155,
+        "sd": 0.008660254037844393
+      },
+      "peak_memory_bytes": {
+        "mean": 35536856.0,
+        "sd": 103410.68238823299
+      },
+      "max_parameter_gradient_norm": {
+        "mean": 2.5101678371429443,
+        "sd": 0.6234027762384113
+      },
+      "final_stiffness_normalized": {
+        "mean": 1.824012557665507,
+        "sd": 0.18560795269191285
+      },
+      "final_mass_energy": {
+        "mean": 1.1503105194303014e-06,
+        "sd": 1.694595672945584e-07
+      },
+      "final_relative_coverage": {
+        "mean": 0.09408316512902577,
+        "sd": 0.016601180972486584
+      },
+      "time_ratio": {
+        "mean": 1.306138041594363,
+        "sd": 0.1647979571247321
+      },
+      "baseline_training_time_loss": {
+        "mean": 3.299733837445577,
+        "sd": 0.027508900015939808
+      },
+      "baseline_training_time_steps": 141.66666666666666
+    }
+  },
+  "paired_vs_baseline": {
+    "gradient_smoothing": {
+      "loss_difference_mean": -0.012344733874003033,
+      "loss_difference_sd": 0.009354832998121539
+    },
+    "fe_e_always": {
+      "loss_difference_mean": 0.0006275574366251627,
+      "loss_difference_sd": 0.03071100795222221
+    },
+    "fe_e_periodic": {
+      "loss_difference_mean": 0.12328197161356602,
+      "loss_difference_sd": 0.04083611447104396
+    },
+    "fe_e_gated": {
+      "loss_difference_mean": -0.0012851874033610322,
+      "loss_difference_sd": 0.0051182839522224315
+    },
+    "gs_fe_e_gated": {
+      "loss_difference_mean": -0.014747929573059112,
+      "loss_difference_sd": 0.026986391451738402
+    }
+  },
+  "successful_runs": 18,
+  "total_runs": 18
+}

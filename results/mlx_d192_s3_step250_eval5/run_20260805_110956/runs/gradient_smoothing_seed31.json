@@ -1,0 +1,97 @@
+{
+  "variant": "gradient_smoothing",
+  "seed": 31,
+  "status": "completed",
+  "error": null,
+  "completed_steps": 250,
+  "elapsed_seconds": 101.06386862508953,
+  "mean_step_seconds": 0.39833269672734395,
+  "timed_training_seconds": 97.59151069819927,
+  "initial_task_loss": 3.6551971435546875,
+  "final_task_loss": 3.492961883544922,
+  "minimum_task_loss": 3.412491798400879,
+  "max_parameter_gradient_norm": 19.97123908996582,
+  "final_stiffness_normalized": 0.03564462438225746,
+  "final_mass_energy": 8.825324471217755e-09,
+  "final_relative_coverage": 0.9785104393959045,
+  "evaluation_loss": 3.476928949356079,
+  "evaluation_accuracy": 0.043750001862645146,
+  "regularized_steps": 0,
+  "regularized_fraction": 0.0,
+  "probe_steps": 14,
+  "probe_fraction": 0.056,
+  "peak_memory_bytes": 79129532,
+  "evaluation_history": [
+    {
+      "step": 25,
+      "elapsed_seconds": 10.179943541064858,
+      "timed_training_seconds": 7.963206876534969,
+      "evaluation_loss": 3.490957021713257,
+      "evaluation_accuracy": 0.02500000037252903
+    },
+    {
+      "step": 50,
+      "elapsed_seconds": 20.30037041613832,
+      "timed_training_seconds": 17.93129737349227,
+      "evaluation_loss": 3.45017147064209,
+      "evaluation_accuracy": 0.0604166679084301
+    },
+    {
+      "step": 75,
+      "elapsed_seconds": 30.421746000181884,
+      "timed_training_seconds": 27.916496329009533,
+      "evaluation_loss": 3.4600554943084716,
+      "evaluation_accuracy": 0.03333333395421505
+    },
+    {
+      "step": 100,
+      "elapsed_seconds": 40.57894566608593,
+      "timed_training_seconds": 37.907681078184396,
+      "evaluation_loss": 3.488703393936157,
+      "evaluation_accuracy": 0.031250000931322575
+    },
+    {
+      "step": 125,
+      "elapsed_seconds": 50.74712625006214,
+      "timed_training_seconds": 47.90245274407789,
+      "evaluation_loss": 3.47666654586792,
+      "evaluation_accuracy": 0.03125000074505806
+    },
+    {
+      "step": 150,
+      "elapsed_seconds": 60.751190250273794,
+      "timed_training_seconds": 57.79077611723915,
+      "evaluation_loss": 3.4768965244293213,
+      "evaluation_accuracy": 0.04166666828095913
+    },
+    {
+      "step": 175,
+      "elapsed_seconds": 70.70861329091713,
+      "timed_training_seconds": 67.63514178153127,
+      "evaluation_loss": 3.476392078399658,
+      "evaluation_accuracy": 0.03333333358168602
+    },
+    {
+      "step": 200,
+      "elapsed_seconds": 80.83345929114148,
+      "timed_training_seconds": 77.6050270316191,
+      "evaluation_loss": 3.4760899543762207,
+      "evaluation_accuracy": 0.027083333395421506
+    },
+    {
+      "step": 225,
+      "elapsed_seconds": 90.95373966591433,
+      "timed_training_seconds": 87.60954969935119,
+      "evaluation_loss": 3.4812705516815186,
+      "evaluation_accuracy": 0.02708333432674408
+    },
+    {
+      "step": 250,
+      "elapsed_seconds": 101.06376454094425,
+      "timed_training_seconds": 97.59151069819927,
+      "evaluation_loss": 3.476928949356079,
+      "evaluation_accuracy": 0.043750001862645146
+    }
+  ],
+  "log_path": "logs/gradient_smoothing_seed31.jsonl"
+}

@@ -1,0 +1,35 @@
+name: 实验提议 / Experiment proposal
+description: 预注册一个可证伪的FE-E实验 / Preregister a falsifiable FE-E experiment
+title: "[Experiment] "
+labels: ["experiment"]
+body:
+  - type: textarea
+    attributes:
+      label: 假设与反证条件 / Hypothesis and falsification
+      description: 写明要检验的主张，以及什么结果会否定它。State the claim and the result that would reject it.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 冻结协议 / Frozen protocol
+      description: 模型、任务、种子、方法、sham、验证批次、冲击与门控参数。Specify model, task, seeds, methods, sham, validation batches, shocks, and gate parameters.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 终点与停止条件 / Endpoints and stopping
+      description: 主终点、次终点、安全上限、主动停止规则。Define primary and secondary endpoints, safety ceiling, and active-stop rules.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 算力预算 / Compute budget
+      description: 硬件、显存、预计步数、墙钟时间与存储。Estimate hardware, memory, updates, wall-clock time, and storage.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 分析计划 / Analysis plan
+      description: 配对方式、完整性检查、图表和主张边界。Define pairing, integrity checks, figures, and claim boundaries.
+    validations:
+      required: true

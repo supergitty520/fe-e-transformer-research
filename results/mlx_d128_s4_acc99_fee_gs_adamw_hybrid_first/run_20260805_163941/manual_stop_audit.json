@@ -1,0 +1,17 @@
+{
+  "event": "manual_experiment_stop",
+  "reason": "User requested stopping after all seed 59 variants completed",
+  "last_completed_formal_seed": 59,
+  "excluded_partial_run": {
+    "variant": "gs_fe_e_gated",
+    "seed": 71,
+    "logged_train_steps": 69,
+    "last_zero_based_step": 68,
+    "last_log_timestamp_utc": "2026-08-05T16:17:03.268288+00:00",
+    "run_end_record_present": false,
+    "process_exit_code": 130
+  },
+  "never_started_seed": 89,
+  "formal_analysis_scope": [31, 47, 59],
+  "project_relative_formal_analysis": "results/mlx_d128_acc99_s3_fee_gs_adamw_analysis.json"
+}

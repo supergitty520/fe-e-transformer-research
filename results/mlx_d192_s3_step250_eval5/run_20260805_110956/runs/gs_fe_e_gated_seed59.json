@@ -1,0 +1,97 @@
+{
+  "variant": "gs_fe_e_gated",
+  "seed": 59,
+  "status": "completed",
+  "error": null,
+  "completed_steps": 250,
+  "elapsed_seconds": 118.90697845909745,
+  "mean_step_seconds": 0.47022836887828856,
+  "timed_training_seconds": 115.20595037518069,
+  "initial_task_loss": 3.607503890991211,
+  "final_task_loss": 3.379112958908081,
+  "minimum_task_loss": 3.2906548976898193,
+  "max_parameter_gradient_norm": 2.0068037509918213,
+  "final_stiffness_normalized": 2.551278591156006,
+  "final_mass_energy": 2.638235400809208e-06,
+  "final_relative_coverage": 0.0034165799152106047,
+  "evaluation_loss": 3.3441717624664307,
+  "evaluation_accuracy": 0.06666666865348816,
+  "regularized_steps": 12,
+  "regularized_fraction": 0.048,
+  "probe_steps": 40,
+  "probe_fraction": 0.16,
+  "peak_memory_bytes": 263253556,
+  "evaluation_history": [
+    {
+      "step": 25,
+      "elapsed_seconds": 11.367034292314202,
+      "timed_training_seconds": 8.936983124352992,
+      "evaluation_loss": 3.452639579772949,
+      "evaluation_accuracy": 0.05416666846722364
+    },
+    {
+      "step": 50,
+      "elapsed_seconds": 24.72953512519598,
+      "timed_training_seconds": 22.169518706854433,
+      "evaluation_loss": 3.446848726272583,
+      "evaluation_accuracy": 0.0479166679084301
+    },
+    {
+      "step": 75,
+      "elapsed_seconds": 38.114476500079036,
+      "timed_training_seconds": 35.42962424457073,
+      "evaluation_loss": 3.4568756103515623,
+      "evaluation_accuracy": 0.04583333544433117
+    },
+    {
+      "step": 100,
+      "elapsed_seconds": 49.05743587529287,
+      "timed_training_seconds": 46.21845862083137,
+      "evaluation_loss": 3.430219221115112,
+      "evaluation_accuracy": 0.04166666753590107
+    },
+    {
+      "step": 125,
+      "elapsed_seconds": 60.092965375166386,
+      "timed_training_seconds": 57.09148991527036,
+      "evaluation_loss": 3.4089715003967287,
+      "evaluation_accuracy": 0.05625000111758709
+    },
+    {
+      "step": 150,
+      "elapsed_seconds": 73.73171733412892,
+      "timed_training_seconds": 70.59416504297405,
+      "evaluation_loss": 3.3973890781402587,
+      "evaluation_accuracy": 0.0770833358168602
+    },
+    {
+      "step": 175,
+      "elapsed_seconds": 84.64856691705063,
+      "timed_training_seconds": 81.37148708151653,
+      "evaluation_loss": 3.3946578025817873,
+      "evaluation_accuracy": 0.05625000223517418
+    },
+    {
+      "step": 200,
+      "elapsed_seconds": 95.85617616726086,
+      "timed_training_seconds": 92.43317224876955,
+      "evaluation_loss": 3.3479560375213624,
+      "evaluation_accuracy": 0.06875000111758708
+    },
+    {
+      "step": 225,
+      "elapsed_seconds": 107.13329970929772,
+      "timed_training_seconds": 103.57929629227147,
+      "evaluation_loss": 3.37274284362793,
+      "evaluation_accuracy": 0.07291666939854621
+    },
+    {
+      "step": 250,
+      "elapsed_seconds": 118.90684224991128,
+      "timed_training_seconds": 115.20595037518069,
+      "evaluation_loss": 3.3441717624664307,
+      "evaluation_accuracy": 0.06666666865348816
+    }
+  ],
+  "log_path": "logs/gs_fe_e_gated_seed59.jsonl"
+}

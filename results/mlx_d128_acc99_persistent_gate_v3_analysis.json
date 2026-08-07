@@ -1,0 +1,210 @@
+{
+  "run": "results/mlx_d128_s1_acc99_persistent_gate_v3_hybrid_first/run_20260805_152559",
+  "manifest_source_sha256": "d87e2976518e2c7aed7295c86048cabafb65654d15f6d5120366f48baa84acab",
+  "config": {
+    "steps": 5000,
+    "layers": 128,
+    "width": 32,
+    "heads": 4,
+    "sequence_length": 12,
+    "batch_size": 8,
+    "vocab_size": 32,
+    "learning_rate": 0.002,
+    "weight_decay": 0.01,
+    "residual_scale": 1.0,
+    "lambda_stiffness": 0.1,
+    "lambda_energy": 0.02,
+    "lambda_entropy": 2.0,
+    "entropy_lower": 0.5,
+    "entropy_upper": 0.98,
+    "regularizer_warmup_steps": 10,
+    "periodic_every": 8,
+    "diagnostic_every": 20,
+    "observer_probe_every": 8,
+    "evaluation_every": 125,
+    "evaluation_batches": 8,
+    "smoothing_alpha": 0.2,
+    "observer_calibration_steps": 24,
+    "observer_on_threshold": 2.5,
+    "observer_off_threshold": 1.0,
+    "observer_persistence_window": 4,
+    "observer_persistence_required": 3,
+    "observer_metric_votes_required": 2,
+    "observer_harm_consecutive": 2,
+    "observer_sentinel_loss_tolerance": 0.01,
+    "observer_sentinel_accuracy_tolerance": 0.01,
+    "observer_phase_improvement_tolerance": 0.02,
+    "intervention_steps": 1,
+    "recovery_steps": 48,
+    "observer_mass_log_tolerance": 0.5,
+    "observer_coverage_floor": 0.9,
+    "log_fsync_every": 20,
+    "timing_warmup_steps": 5,
+    "stress_step": -1,
+    "stress_duration": 8,
+    "stress_lr_multiplier": 3.0,
+    "gated_fee_gradient_ratio": 0.05,
+    "gated_fee_gradient_ratio_max": 0.2,
+    "target_token_accuracy": 0.99,
+    "target_confirmations": 3,
+    "stop_on_target": true
+  },
+  "integrity": {
+    "gs_fe_e_gated": {
+      "records": 1627,
+      "train_steps": 1625,
+      "run_start_records": 1,
+      "run_end_records": 1,
+      "contiguous_steps": true,
+      "finite_steps": true,
+      "completed": true
+    },
+    "gradient_smoothing": {
+      "records": 2502,
+      "train_steps": 2500,
+      "run_start_records": 1,
+      "run_end_records": 1,
+      "contiguous_steps": true,
+      "finite_steps": true,
+      "completed": true
+    }
+  },
+  "primary_endpoint": {
+    "definition": "token accuracy >= 0.99 for 3 consecutive 125-step checkpoints",
+    "gs_fe_e_gated_first_step": 1375,
+    "gradient_smoothing_first_step": 2250,
+    "first_step_saving": 875,
+    "first_step_reduction_fraction": 0.3888888888888889,
+    "gs_fe_e_gated_confirmed_step": 1625,
+    "gradient_smoothing_confirmed_step": 2500,
+    "confirmed_step_saving": 875,
+    "confirmed_step_reduction_fraction": 0.35
+  },
+  "common_step": 1625,
+  "common_step_evaluations": {
+    "gs_fe_e_gated": {
+      "step": 1625,
+      "elapsed_seconds": 486.8201667503454,
+      "timed_training_seconds": 482.75674183294177,
+      "evaluation_loss": 0.009568630834110081,
+      "evaluation_accuracy": 1.0,
+      "target_streak": 3,
+      "target_confirmed": true
+    },
+    "gradient_smoothing": {
+      "step": 1625,
+      "elapsed_seconds": 518.2488081660122,
+      "timed_training_seconds": 513.6835309774615,
+      "evaluation_loss": 3.2457855343818665,
+      "evaluation_accuracy": 0.09244791883975267,
+      "target_streak": 0,
+      "target_confirmed": false
+    }
+  },
+  "gate_audit": {
+    "observer_probes": 231,
+    "propagation_abnormal_probes": 223,
+    "persistent_propagation_probes": 221,
+    "damage_events": 74,
+    "persistent_damage_probes": 21,
+    "phase_guarded_probes": 3,
+    "confirmed_harm_events": 12,
+    "intervention_steps": 12,
+    "intervention_fraction": 0.0073846153846153844,
+    "trigger_steps_zero_based": [
+      56,
+      144,
+      216,
+      272,
+      352,
+      472,
+      632,
+      728,
+      800,
+      952,
+      1032,
+      1216
+    ],
+    "intervention_steps_zero_based": [
+      57,
+      145,
+      217,
+      273,
+      353,
+      473,
+      633,
+      729,
+      801,
+      953,
+      1033,
+      1217
+    ],
+    "trigger_interval_median": 88,
+    "trigger_interval_min": 56,
+    "gradient_ratio_counts": {
+      "0.05": 1,
+      "0.1": 1,
+      "0.2": 10
+    },
+    "reason_counts": {
+      "coverage_deficit_z": 224,
+      "stiffness_z": 223,
+      "mass_z": 58,
+      "gradient_z": 13
+    }
+  },
+  "efficiency": {
+    "gs_fe_e_gated": {
+      "completed_steps": 1625,
+      "mean_step_seconds": 0.2979979887857665,
+      "timed_training_seconds": 482.75674183294177,
+      "target_confirmed_training_seconds": 482.75674183294177,
+      "peak_memory_bytes": 178764324,
+      "ordinary_step_medians": {
+        "first_200": 0.2708916037809104,
+        "last_200": 0.3409859170205891
+      }
+    },
+    "gradient_smoothing": {
+      "completed_steps": 2500,
+      "mean_step_seconds": 0.31824341146387386,
+      "timed_training_seconds": 794.0173116023652,
+      "target_confirmed_training_seconds": 794.0173116023652,
+      "peak_memory_bytes": 53296340,
+      "ordinary_step_medians": {
+        "first_200": 0.3268427294678986,
+        "last_200": 0.31252137501724064
+      }
+    }
+  },
+  "max_parameter_gradient_norm": {
+    "gs_fe_e_gated": {
+      "value": 9.139164924621582,
+      "step": 50
+    },
+    "gradient_smoothing": {
+      "value": 47.616764068603516,
+      "step": 50
+    }
+  },
+  "pre_intervention_divergence_check": {
+    "check_step_zero_based": 50,
+    "first_fee_step_zero_based": 57,
+    "values": {
+      "gs_fe_e_gated": {
+        "task_loss": 3.443632125854492,
+        "parameter_gradient_norm": 9.139164924621582
+      },
+      "gradient_smoothing": {
+        "task_loss": 3.439431667327881,
+        "parameter_gradient_norm": 47.616764068603516
+      }
+    }
+  },
+  "limitations": [
+    "single seed and synthetic reverse-sequence task",
+    "serial order was hybrid first, so wall-clock comparisons are contaminated by system-load drift",
+    "Metal trajectories show small run-to-run numerical drift near a sharp learning transition",
+    "the fixed calibration reference makes propagation flags frequent; task damage, phase guard, and cooldown provide the effective selectivity"
+  ]
+}

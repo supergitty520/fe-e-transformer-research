@@ -1,0 +1,61 @@
+# Credentials and machine-local configuration
+.secrets/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+authorized_keys
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# JavaScript dependencies and build output
+website/node_modules/
+website/.next/
+website/.vinext/
+website/.open-next/
+website/dist/
+website/.wrangler/
+website/.dev.vars
+
+# Temporary rendering and publication infrastructure
+tmp/
+publication/
+local_research_archive/
+
+# Generated release bundles stay outside the main research history
+output/attachments/*.zip
+output/attachments/*.sha256
+
+# Workspace-only project metadata
+PROJECT.md
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Runtime leftovers
+*.log
+*.pid
+
+# Local Windows experiment-machine administration (never publish)
+scripts/setup_windows_fee_ssh.ps1
+scripts/setup_windows_fee_admin_ssh.ps1
+scripts/revoke_windows_fee_admin.ps1

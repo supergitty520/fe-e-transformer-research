@@ -1,0 +1,171 @@
+{
+  "run": "results/mlx_d128_s31_acc99_adamw_fee_vs_sham_fee_first/run_20260805_183344",
+  "historical_plain_adamw_run": "results/mlx_d128_s4_acc99_fee_gs_adamw_hybrid_first/run_20260805_163941",
+  "source_sha256": "844ee91cfedb5c8b4a24aa49c5593ee85d3e946a0917b0e6366b73d92689c97d",
+  "config": {
+    "steps": 5000,
+    "layers": 128,
+    "width": 32,
+    "heads": 4,
+    "sequence_length": 12,
+    "batch_size": 8,
+    "vocab_size": 32,
+    "learning_rate": 0.002,
+    "weight_decay": 0.01,
+    "residual_scale": 1.0,
+    "lambda_stiffness": 0.1,
+    "lambda_energy": 0.02,
+    "lambda_entropy": 2.0,
+    "entropy_lower": 0.5,
+    "entropy_upper": 0.98,
+    "regularizer_warmup_steps": 10,
+    "periodic_every": 8,
+    "diagnostic_every": 20,
+    "observer_probe_every": 8,
+    "evaluation_every": 125,
+    "evaluation_batches": 8,
+    "smoothing_alpha": 0.2,
+    "observer_calibration_steps": 24,
+    "observer_on_threshold": 2.5,
+    "observer_off_threshold": 1.0,
+    "observer_persistence_window": 4,
+    "observer_persistence_required": 3,
+    "observer_metric_votes_required": 2,
+    "observer_harm_consecutive": 2,
+    "observer_sentinel_loss_tolerance": 0.01,
+    "observer_sentinel_accuracy_tolerance": 0.01,
+    "observer_phase_improvement_tolerance": 0.02,
+    "observer_baseline_window": 16,
+    "observer_adaptive_baseline": false,
+    "intervention_steps": 1,
+    "recovery_steps": 48,
+    "observer_mass_log_tolerance": 0.5,
+    "observer_coverage_floor": 0.9,
+    "log_fsync_every": 20,
+    "timing_warmup_steps": 5,
+    "stress_step": -1,
+    "stress_duration": 8,
+    "stress_lr_multiplier": 3.0,
+    "gated_fee_gradient_ratio": 0.05,
+    "gated_fee_gradient_ratio_max": 0.2,
+    "target_token_accuracy": 0.99,
+    "target_confirmations": 3,
+    "stop_on_target": true
+  },
+  "primary_endpoint": "token accuracy >= 0.99 for 3 consecutive 125-step validation checkpoints",
+  "integrity": {
+    "fe_e_gated": {
+      "records": 2002,
+      "train_steps": 2000,
+      "run_start_records": 1,
+      "run_end_records": 1,
+      "contiguous_zero_based_steps": true,
+      "all_steps_finite": true,
+      "completed_run_end": true
+    },
+    "adamw_observer_control": {
+      "records": 2127,
+      "train_steps": 2125,
+      "run_start_records": 1,
+      "run_end_records": 1,
+      "contiguous_zero_based_steps": true,
+      "all_steps_finite": true,
+      "completed_run_end": true
+    }
+  },
+  "all_primary_logs_pass_integrity": true,
+  "primary_comparison": {
+    "fee_first_target_step": 1750,
+    "sham_first_target_step": 1875,
+    "first_target_step_saving": 125,
+    "first_target_reduction_fraction": 0.06666666666666667,
+    "fee_confirmed_step": 2000,
+    "sham_confirmed_step": 2125,
+    "confirmed_step_saving": 125,
+    "confirmed_step_reduction_fraction": 0.058823529411764705,
+    "common_checkpoint_last_step": 2000,
+    "fee_mean_validation_loss_through_common_step": 2.6274138062508428,
+    "sham_mean_validation_loss_through_common_step": 2.869192242855206
+  },
+  "historical_context_not_primary_control": {
+    "plain_adamw_first_target_step": 1750,
+    "plain_adamw_confirmed_step": 2000,
+    "fee_vs_plain_adamw_confirmed_step_difference": 0,
+    "interpretation": "The matched FE-E run ties the earlier lean AdamW endpoint; the historical run is not a contemporaneous causal control."
+  },
+  "gate_audit": {
+    "fee_intervention_count": 10,
+    "fee_intervention_fraction": 0.005,
+    "fee_intervention_steps_zero_based": [
+      49,
+      249,
+      393,
+      505,
+      865,
+      961,
+      1025,
+      1081,
+      1497,
+      1577
+    ],
+    "fee_gradient_ratio_counts": {
+      "0.05": 1,
+      "0.1": 1,
+      "0.2": 8
+    },
+    "sham_scheduled_intervention_count": 10,
+    "sham_scheduled_steps_zero_based": [
+      49,
+      345,
+      417,
+      473,
+      569,
+      697,
+      985,
+      1201,
+      1553,
+      1625
+    ],
+    "first_gate_decision_matched": {
+      "decision_step_zero_based": 48,
+      "fee_confirmed_harm": true,
+      "sham_confirmed_harm": true,
+      "fee_state_after": "CONFIRMED_HARM",
+      "sham_state_after": "CONFIRMED_HARM"
+    }
+  },
+  "pre_intervention_match": {
+    "first_fee_step_zero_based": 49,
+    "compared_steps": 49,
+    "maximum_absolute_task_loss_difference": 1.430511474609375e-06,
+    "maximum_absolute_parameter_gradient_norm_difference": 0.0021486282348632812,
+    "fee_task_loss_at_first_fee_step_before_update": 3.4617927074432373,
+    "sham_task_loss_at_first_fee_step_before_update": 3.4617927074432373,
+    "same_first_intervention_schedule": true
+  },
+  "efficiency_audit": {
+    "fe_e_gated": {
+      "completed_steps": 2000,
+      "timed_training_seconds": 549.6678154943511,
+      "mean_step_seconds": 0.2755227145335093,
+      "peak_memory_bytes": 177395912,
+      "ordinary_step_seconds_median": 0.25726281222887337,
+      "observer_probe_step_seconds_median": 0.3373604170046747,
+      "fee_intervention_step_seconds_median": 0.627193332882598
+    },
+    "adamw_observer_control": {
+      "completed_steps": 2125,
+      "timed_training_seconds": 615.3893974805251,
+      "mean_step_seconds": 0.29027801767949296,
+      "peak_memory_bytes": 53835856,
+      "ordinary_step_seconds_median": 0.27738720923662186,
+      "observer_probe_step_seconds_median": 0.3638584157451987,
+      "fee_intervention_step_seconds_median": null
+    }
+  },
+  "interpretation": {
+    "matched_control_result": "FE-E wins the matched sham-observer comparison by 125 updates (5.9%).",
+    "engineering_result": "FE-E ties the earlier plain AdamW endpoint and adds observer/intervention cost, so independent production advantage over lean AdamW is not established.",
+    "evidence_level": "single-seed mechanistic evidence, not a statistical result"
+  }
+}
